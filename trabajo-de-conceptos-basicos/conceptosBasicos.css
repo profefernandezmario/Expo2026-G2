@@ -1,0 +1,38 @@
+.border-pr {
+  transition: transform 0.2s ease;
+}
+
+
+.mi-tarjeta{
+  max-width: 450px;
+  word-wrap: break-word;
+}
+.border-pr{
+  border: 2px solid gray;
+}
+.colorfondo{
+  background-color: #0D1C42;
+  color: #FCF1D0;
+}
+.titulo{
+  color: #0D1C42;
+}
+.titulo2{
+  color: #22396F;
+}
+.w-30{
+  width: 100px;
+}
+.botones{
+  background-color: #0D1C42;
+  transition: 0.3s ease;
+}
+.botones :hover{
+  background-color: #050505;
+}
+
+@media (min-width: 1000px) {
+  .border-pr:hover {
+  transform: translateY(6px) scale(1.02);
+  }
+}

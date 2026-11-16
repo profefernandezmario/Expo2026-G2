@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.fuente-texto{
+    font-family: "Rubik", sans-serif !important;
+    font-optical-sizing: auto;
+    height: auto;
+}
+
+.navbar{
+    background-color: #050024;
+    font-size: .9rem !important;
+}
+
+.nav-link{
+    color: #fff !important;
+}
+
+.nav-item:hover .nav-link{
+    color:aqua !important;
+    border-bottom:1px solid aqua !important;
+}
+
+.nav-link.active {
+    display: inline-block !important;
+    color: aqua !important;
+    border-bottom: 1px solid aqua;
+}
+
+.cabezaPag{
+    background: url(multimedia/bannerHeader.jpeg) no-repeat center;
+    background-size: cover;
+    text-wrap: balance;
+}
+
+.gradienteT{
+    background-image: linear-gradient(to right, rgb(66, 69, 240), rgb(53, 223, 152));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.fondoNeon{
+    background-color: #050024;
+    text-wrap: balance;
+}
+
+.fuentes{
+    font-size: .6rem;
+}

@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Amenazas ciberneticas en la vida diaria / Ciberseguridad</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet">
+    <link rel="shortcut icon" href="../multimedia/IconoColegiosinFondo.ico"
+      type="image/x-icon">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="amenazas.css">
+    <meta name="description"
+      content="Trabajo Practico para exhibir en la EXPO 2026>
+    <meta name="author"
+      content="Desarrollador Web Jr. - Grupo Jueves y Viernes - Docente Mario R. Fernandez">
+    <meta name="keywords"
+      content="HTML5, CSS3, desarrollo web, efp7, resistencia, expo, educacion tecnica, grupo 2, Frontend">
+    <!-- lo siguiente Indica a los rastreadores de los buscadores si deben indexar la página o seguir los enlaces. -->
+    <meta name="robots" content="index, follow">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg border-bottom sticky-top"
+      data-bs-theme="dark" aria-label="Menu principal">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <img src="Imagenes/EFP7.png" alt="Logo del colegio EFPN° 7" width="80"
+            height="40" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul
+            class="navbar-nav flex-wrap align-items-center justify-content-lg-center ">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"
+                href="../trabajo-de-conceptos-basicos/conceptosBasicos.html">Bases</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"
+                href="../ImportanciadeCiberseguridad/importancia.html">Importancia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"
+                href="../buenas-practicas/buenasPracticas.html">Buenas
+                prácticas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Entorno profesional</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Amenazas y
+                prevención</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Educación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"
+                href="../CarrerasCiberseguridad/carreras.html">Carreras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"
+                href="../ProyectoEscolar/herramientas.html">Recursos y
+                herramientas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"
+                href="../LegislacionCiberseguridad/legislacion.html">Legislación
+                y Normativas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"
+                href="../tendenciasFuturas/TendenciasFuturas.html">Tendencias
+                futuras</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+
+      <section class="portada">
+        <div class="container">
+          <h1 class="display-5 fw-bold">Amenazas cibernéticas en la vida diaria
+            <svg xmlns="http://www.w3.org/2000/svg"
+              width="40" height="40" fill="currentColor"
+              class="bi bi-people-fill" viewBox="0 0 16 16">
+              <path
+                d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
+            </svg></h1>
+          <p class="destacado mb-0">
+            Los ataques no avisan: llegan por un mensaje, un llamado, una
+            descarga o una oferta.
+            Aca vas a ver por donde te pueden llegar, como se ven en una
+            situacion real y que hacer en ese momento.
+          </p>
+        </div>
+      </section>
+
+      <img src="Imagenes/ciberseguridad.jpg"
+        alt="Ilustracion sobre ciberseguridad"
+        class="img-fluid d-block mx-auto mt-4">
+      <p class="small text-secondary text-center">
+        Nota: Esta imagen fue generada con inteligencia artificial. (Gemini)
+      </p>
+
+      <section class="container my-5">
+        <h2 class="titulo h3">¿Por donde te pueden llegar?</h2>
+        <div class="table-responsive">
+          <table class="table table-bordered align-middle bg-white mb-0">
+
+            <tr class="colordetabla">
+              <th>El Canal por donde ocurre</th>
+              <th>Lo que intenta parecer</th>
+              <th>Lo que realmente es</th>
+            </tr>
+            <tr>
+              <td>Puede ser correo electronico o mensajes de texto</td>
+              <td>Aviso de tu banco sobre algun problema</td>
+              <td>Un engaño para robarte tus datos</td>
+            </tr>
+            <tr>
+              <td>Whatsapp o Telegram</td>
+              <td>Un conocido pidiendo ayuda o pidiendote un codigo</td>
+              <td>Un intento de robo de tu cuenta</td>
+            </tr>
+            <tr>
+              <td>Llamado a tu numero telefonico</td>
+              <td>Puede ser soporte tecnico del banco o alguna empresa</td>
+              <td>Manipulacion inteligente para tratar de robarte las
+                claves</td>
+            </tr>
+            <tr>
+              <td>Descargas de archivos o apps</td>
+              <td>Programas o juegos piratas</td>
+              <td>Software danino con virus,keyloggers u otras cosas</td>
+            </tr>
+            <tr>
+              <td>Wi-fi publico</td>
+              <td>Internet gratis en algun local (como un bar o plaza)</td>
+              <td>Red insegura que podrian espiarte o ver que haces</td>
+            </tr>
+            <tr>
+              <td>Compras y ventas online</td>
+              <td>Un precio muy barato por un articulo o un comprobante de
+                pago</td>
+              <td>Una estafa donde nunca se realiza el pago o nunca llega el
+                articulo</td>
+            </tr>
+            <tr>
+              <td>Redes sociales</td>
+              <td>Un perfil o mensaje de una persona normal</td>
+              <td>Cuenta falsa o robada de otra persona</td>
+            </tr>
+
+          </table>
+        </div>
+      </section>
+
+      <section class="container my-5">
+        <h2 class="titulo h3">Siete situaciones que pueden pasarte <svg
+            xmlns="http://www.w3.org/2000/svg" width="40"
+            height="40" fill="currentColor" class="bi bi-list-check"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5M3.854 2.146a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 3.293l1.146-1.147a.5.5 0 0 1 .708 0m0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 7.293l1.146-1.147a.5.5 0 0 1 .708 0m0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0" />
+          </svg></h2>
+
+        <div class="row align-items-center g-4 tarjetita">
+          <div class="col-md-5">
+            <img src="Imagenes/phishing.jpg"
+              alt="Mensaje falso que imita a un banco"
+              class="img-fluid rounded">
+          </div>
+          <div class="col-md-7">
+            <p
+              class="text-uppercase small fw-semibold text-secondary mb-1 ">Phishing
+              y smishing</p>
+            <h3 class="h5 subtitulo fw-semibold">1. Te llega un mensaje urgente
+              del banco</h3>
+            <p><strong>La situacion:</strong> un SMS dice "Detectamos un acceso
+              sospechoso, ingresa aca para evitar el
+              bloqueo".</p>
+            <div class="row">
+              <div class="col-sm-6">
+                <h4 class="h6">Senales de alerta</h4>
+                <ul>
+                  <li>Te apura o te amenaza con bloquear algo.</li>
+                  <li>El enlace no es la direccion oficial.</li>
+                  <li>No te llama por tu nombre.</li>
+                </ul>
+              </div>
+              <div class="col-sm-6">
+                <h4 class="h6">Que hacer</h4>
+                <ul class="mb-0">
+                  <li>No toques el enlace.</li>
+                  <li>Entra escribiendo vos la web o la app oficial.</li>
+                  <li>Si dudas, llama al numero que figura en tu tarjeta.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row align-items-center g-4 tarjetita">
+          <div class="col-md-8">
+            <h3 class="h5 subtitulo fw-semibold">2. Un contacto te pide
+              "un codigo que te llego por error"</h3>
+            <p><strong>La situacion:</strong> un amigo (en realidad una cuenta
+              ya robada) te escribe: "Te llego un codigo
+              por SMS, ¿me lo pasas?". Si lo das, te roban tu WhatsApp.</p>
+            <p>Esto es <strong>ingenieria social</strong>: no hackean tu
+              celular, te convencen a vos de que les des la
+              llave.</p>
+            <h4 class="h6">Senales de alerta</h4>
+            <ul>
+              <li>Te pide un codigo de verificacion.</li>
+              <li>Dice "cambie de numero" o pide plata urgente.</li>
+              <li>Escribe distinto a como lo hace siempre.</li>
+            </ul>
+            <h4 class="h6">Que hacer</h4>
+            <ul class="mb-0">
+              <li>Nunca compartas un codigo, ni con conocidos.</li>
+              <li>Llama a esa persona para confirmar.</li>
+              <li>Activa la verificacion en dos pasos de WhatsApp.</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <img src="Imagenes/ingenieriasocial.jpg"
+              alt="imagen de chat de whatsApp sospechoso que pide un codigo de seis digitos"
+              class="img-fluid rounded">
+          </div>
+        </div>
+
+        <div class="row align-items-center g-4 tarjetita">
+          <div class="col-md-5">
+            <img src="Imagenes/ingenieriasocial2.jpg"
+              alt="Persona recibiendo un llamado de un falso soporte tecnico"
+              class="img-fluid rounded">
+          </div>
+          <div class="col-md-7">
+            <p
+              class="text-uppercase small fw-semibold text-secondary mb-1">Ingenieria
+              social, version llamada</p>
+            <h3 class="h5 subtitulo fw-semibold">3. Te llaman de "soporte" o del
+              "banco"</h3>
+            <p><strong>La situacion:</strong> alguien te dice que hay un
+              problema con tu cuenta o tu computadora y te pide
+              instalar un programa o decirle una clave "para ayudarte".</p>
+            <p><strong>Como darte cuenta:</strong> es un llamado que vos no
+              pediste, te presiona para actuar ya y te pide
+              claves, codigos o acceso remoto.</p>
+            <p class="mb-0"><strong>Que hacer:</strong> corta sin discutir y
+              llama vos al numero oficial. Un banco nunca
+              te
+              pide tu clave por telefono.</p>
+          </div>
+        </div>
+
+        <div class="row align-items-center g-4 tarjetita">
+          <div class="col-md-4">
+            <img src="Imagenes/malware.jpg"
+              alt="Descarga de un programa gratis con un archivo sospechoso"
+              class="img-fluid rounded">
+          </div>
+          <div class="col-md-8">
+            <p
+              class="text-uppercase small fw-semibold text-secondary mb-1">Malware
+              y ransomware</p>
+            <h3 class="h5 subtitulo fw-semibold">4. Descargas algo "gratis" y tu
+              equipo empieza a fallar</h3>
+            <p><strong>La situacion:</strong> bajas un juego pirata o abris un
+              adjunto inesperado. Despues aparece
+              publicidad por todos lados o, peor, tus archivos quedan bloqueados
+              con un pedido de rescate.</p>
+            <div class="row">
+              <div class="col-sm-6">
+                <h4 class="h6">Senales de alerta</h4>
+                <ul>
+                  <li>Programas "crackeados" o de sitios desconocidos.</li>
+                  <li>Equipo lento o con programas que no instalaste.</li>
+                  <li>Archivos que no abren o un mensaje que pide dinero.</li>
+                </ul>
+              </div>
+              <div class="col-sm-6">
+                <h4 class="h6">Que hacer</h4>
+                <ul class="mb-0">
+                  <li>Instala solo desde tiendas y sitios oficiales.</li>
+                  <li>Hace copias de seguridad fuera de tu computadora.</li>
+                  <li>Si te pasa, desconectate de internet.</li>
+                  <li>No pagues el rescate.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row align-items-center g-4 tarjetita">
+          <div class="col-md-7">
+            <p
+              class="text-uppercase small fw-semibold text-secondary mb-1">Redes
+              abiertas</p>
+            <h3 class="h5 subtitulo fw-semibold">5. Te conectas al Wi-Fi gratis
+              de un bar o un aeropuerto</h3>
+            <p><strong>La situacion:</strong> aparece una red con un nombre
+              parecido al del lugar. Si es falsa o esta
+              abierta, otra persona puede ver lo que haces mientras estas
+              conectado.</p>
+            <p>Desconfia de las redes sin contrasena, de las que tienen nombres
+              repetidos y de las que te piden datos
+              personales para conectarte.</p>
+            <h4 class="h6">Que hacer</h4>
+            <ul class="mb-0">
+              <li>Pregunta en el local cual es la red oficial.</li>
+              <li>No entres al banco ni hagas pagos en una red publica.</li>
+              <li>Usa tus datos moviles para lo importante.</li>
+            </ul>
+          </div>
+          <div class="col-md-5">
+            <img src="Imagenes/redesabiertas.jpg"
+              alt="Persona usando el celular en una red Wi-Fi publica"
+              class="img-fluid rounded">
+          </div>
+        </div>
+
+        <div class="row align-items-center g-4 tarjetita">
+          <div class="col-md-5">
+            <img src="Imagenes/estafaenlinea.jpg"
+              alt="Compra en linea con una oferta sospechosa"
+              class="img-fluid rounded">
+          </div>
+          <div class="col-md-7">
+            <p
+              class="text-uppercase small fw-semibold text-secondary mb-1">Estafa
+              en linea</p>
+            <h3 class="h5 subtitulo fw-semibold">6. Encontras una ganga o te
+              "pagan" con un comprobante</h3>
+            <p><strong>La situacion:</strong> vendes algo y el comprador te
+              manda una captura de transferencia, pero la
+              plata nunca llego. O compras un celular a mitad de precio y el
+              vendedor desaparece.</p>
+            <div class="row">
+              <div class="col-sm-6">
+                <h4 class="h6">Senales de alerta</h4>
+                <ul>
+                  <li>Precios demasiado buenos para ser verdad.</li>
+                  <li>Te pide pagar fuera de la plataforma.</li>
+                  <li>Te presiona porque "hay mas interesados".</li>
+                  <li>El comprobante llega por captura y no ves la plata en tu
+                    cuenta.</li>
+                </ul>
+              </div>
+              <div class="col-sm-6">
+                <h4 class="h6">Que hacer</h4>
+                <ul class="mb-0">
+                  <li>Entrega el producto solo cuando veas la plata en tu
+                    cuenta.</li>
+                  <li>Paga con medios protegidos.</li>
+                  <li>Revisa la reputacion del vendedor.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row align-items-center g-4 tarjetita">
+          <div class="col-md-8">
+            <p class="text-uppercase small fw-semibold text-secondary mb-1">Robo
+              de cuentas y suplantacion</p>
+            <h3 class="h5 subtitulo fw-semibold">7. Alguien entra a tu cuenta o
+              se hace pasar por vos</h3>
+            <p><strong>La situacion:</strong> te llega un aviso de inicio de
+              sesion que no hiciste, o un amigo te cuenta
+              que hay un perfil con tus fotos pidiendo plata.</p>
+            <p><strong>Como darte cuenta:</strong> avisos de acceso desde
+              lugares o equipos raros, mensajes enviados desde
+              tu cuenta que no escribiste o perfiles nuevos con tu nombre y tus
+              fotos.</p>
+            <p class="mb-0"><strong>Que hacer:</strong> cambia la clave y activa
+              la verificacion en dos pasos, reporta el
+              perfil falso a la red social y avisa a tus contactos para que no
+              caigan.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="Imagenes/suplantacion.jpg"
+              alt="Perfil falso que usa la foto de otra persona"
+              class="img-fluid rounded">
+          </div>
+        </div>
+
+        <p class="small text-secondary mt-4 mb-0">
+          Nota: las imagenes de esta seccion fueron generadas con inteligencia
+          artificial. (Gemini)
+        </p>
+
+      </section>
+
+      <section class="container my-5">
+        <h2 class="titulo h3">Estadisticas sobre estafas en Argentina en el 2025
+          y 2026 <svg
+            xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+            fill="currentColor" class="bi bi-graph-up-arrow"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M0 0h1v15h15v1H0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5" />
+          </svg></h2>
+        <p><b> Aca algunas cifras de que tan normal son los robos en la
+            actualidad del pais. </b></p>
+
+        <div class="row g-4">
+
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="Imagenes/1decada4.jpg"
+                alt="porcentaje de estafas en argentina"
+                class="card-img-top p-3">
+              <div class="card-body text-center">
+                <p class="h4 fw-bold mb-1">1 de cada 4 Argentinos fue victima de
+                  un ciberataque</p>
+                <p class="mb-0">El 24,9% de los argentinos, es decir 1 de cada
+                  4, ya fue victima de un ciberdelito y el
+                  56,7% conoce a una persona cercana que atraveso esa situacion,
+                  en un escenario donde las redes sociales
+                  y las comunicaciones cotidianas se convirtieron en la
+                  principal via de contacto para las estafas.
+                </p>
+              </div>
+              <div class="card-footer small text-secondary">
+                Fuente: <a
+                  href="https://www.infobae.com/tecno/2026/09/26/1-de-cada-4-argentinos-fue-victima-de-un-ciberataque-las-redes-sociales-son-la-principal-puerta-de-entrada/"
+                  target="_blank">Infobae.com</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="Imagenes/9de10adultosmayores.jpg"
+                alt="9 de cada 10 adultos mayores son blancos de estafas digitales"
+                class="card-img-top p-3">
+              <div class="card-body text-center">
+                <p class="h4 fw-bold mb-1">9 de cada 10 adultos mayores son
+                  blancos de estafas digitales.</p>
+                <p class="mb-0">BTR Consulting realizo una encuesta acerca de
+                  los adultos mayores. El 50% de las personas
+                  de 60 anos en adelante usa internet para todas sus
+                  actividades, el 48% accede desde su celular y el 63%
+                  opera con desconfianza</p>
+              </div>
+              <div class="card-footer small text-secondary">
+                Fuente: <a
+                  href="https://www.perfil.com/noticias/sociedad/9-de-cada-10-adultos-mayores-son-blanco-de-estafas-digitales-modof.phtml"
+                  target="_blank">Perfil.com</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="Imagenes/granaumento.jpg"
+                alt="Aumento de estafas de ingenieria social en Argentina"
+                class="card-img-top p-3">
+              <div class="card-body text-center">
+                <p class="h4 fw-bold mb-1">En Argentina, las estafas de
+                  ingenieria social subieron 183% impulsadas por IA
+                  generativa</p>
+                <p class="mb-0">el avance de deepfakes y el phishing con
+                  inteligencia artificial elevo la efectividad de
+                  los enganos en el pais y en America Latina, con subas de 66% y
+                  de hasta 155% en la region segun informes
+                  sectoriales</p>
+              </div>
+              <div class="card-footer small text-secondary">
+                Fuente: <a
+                  href="https://mercado.com.ar/tecnologia/en-argentina-las-estafas-de-ingenieria-social-subieron-183-impulsadas-por-ia-generativa"
+                  target="_blank">Mercado.com.ar</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <p class="small text-secondary mt-4 mb-0">
+          Nota: las imagenes de esta seccion fueron generadas con inteligencia
+          artificial. (Gemini)
+        </p>
+      </section>
+
+      <section class="container my-5">
+        <h2 class="titulo h3">¿Que pasa si ya caiste en una trampa? <svg
+            xmlns="http://www.w3.org/2000/svg" width="40"
+            height="40" fill="currentColor"
+            class="bi bi-person-fill-exclamation" viewBox="0 0 16 16">
+            <path
+              d="M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0m-9 8c0 1 1 1 1 1h5.256A4.5 4.5 0 0 1 8 12.5a4.5 4.5 0 0 1 1.544-3.393Q8.844 9.002 8 9c-5 0-6 3-6 4" />
+            <path
+              d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0m-3.5-2a.5.5 0 0 0-.5.5v1.5a.5.5 0 0 0 1 0V11a.5.5 0 0 0-.5-.5m0 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1" />
+          </svg></h2>
+        <p>Le puede pasar a cualquiera. Lo que importa es actuar rapido y en
+          este orden.</p>
+        <div class="accordion" id="siCai">
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button" type="button"
+                data-bs-toggle="collapse" data-bs-target="#paso1"
+                aria-expanded="true" aria-controls="paso1">
+                1. Cambia tus claves urgentemente
+              </button>
+            </h3>
+            <div id="paso1" class="accordion-collapse collapse show"
+              data-bs-parent="#siCai">
+              <div class="accordion-body">
+                Primero la del correo, porque con el mail se recuperan todas las
+                demas. Despues las del banco y las de
+                cualquier cuenta que pudo quedar expuesta. Que cada servicio
+                tenga una clave distinta, y activa la
+                verificacion en dos pasos donde se pueda.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button"
+                data-bs-toggle="collapse" data-bs-target="#paso2"
+                aria-expanded="false" aria-controls="paso2">
+                2. Avisa a la entidad de la cual crees que fuiste afectado
+              </button>
+            </h3>
+            <div id="paso2" class="accordion-collapse collapse"
+              data-bs-parent="#siCai">
+              <div class="accordion-body">
+                Llama al banco o al servicio afectado cuanto antes para que
+                bloqueen o protejan tu cuenta. Si tocaron tu
+                perfil, avisales a tus contactos: asi no caen con mensajes que
+                parecen tuyos.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button"
+                data-bs-toggle="collapse" data-bs-target="#paso3"
+                aria-expanded="false" aria-controls="paso3">
+                3. Revisa todo tu equipo de pies a cabeza
+              </button>
+            </h3>
+            <div id="paso3" class="accordion-collapse collapse"
+              data-bs-parent="#siCai">
+              <div class="accordion-body">
+                Pasa un antivirus actualizado y fijate si hay programas que no
+                recordas haber instalado. Borra lo
+                sospechoso y actualiza el sistema. Hasta que lo revises, no uses
+                esa compu o ese celu para entrar a
+                cuentas importantes.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button"
+                data-bs-toggle="collapse" data-bs-target="#paso4"
+                aria-expanded="false" aria-controls="paso4">
+                4. La importancia de denunciar
+              </button>
+            </h3>
+            <div id="paso4" class="accordion-collapse collapse"
+              data-bs-parent="#siCai">
+              <div class="accordion-body">
+                Guarda capturas de pantalla, mensajes, correos y comprobantes, y
+                no borres nada. Con eso hace la denuncia
+                ante las autoridades y segui lo que te indique el banco o la
+                plataforma.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="container my-5">
+        <h2 class="h5">Fuentes consultadas</h2>
+        <ul class="mb-0 fuentes">
+          <li>
+            <a
+              href="https://www.consumoresponde.es/actualidad/noticias/por-que-no-debemos-realizar-operaciones-bancarias-compras-por-internet-conectados-wifi-publicas"
+              target="_blank">Consumo Responde: Por que no debemos hacer
+              operaciones bancarias ni compras con WiFi
+              publica</a>
+          </li>
+          <li>
+            <a
+              href="https://www.lanacion.com.ar/tecnologia/como-evitar-las-estafas-con-comprobantes-truchos-de-mercado-pago-nid25012024/"
+              target="_blank">La Nacion: Como evitar las estafas con
+              comprobantes truchos de Mercado Pago</a>
+          </li>
+          <li>
+            <a
+              href="https://www.itsitio.com/ar/seguridad/smishing-detectar-evitar-estafa-sms/"
+              target="_blank">IT Sitio:
+              Smishing, como detectar y evitar la estafa por SMS</a>
+          </li>
+          <li>
+            <a href="https://www.ready.gov/es/ataque-cibernetico"
+              target="_blank">Ready.gov: Que hacer ante un ataque
+              cibernetico</a>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <footer class="bg-dark text-white-50 py-5">
+      <div class="container-fluid px-4">
+        <div class="row g-4">
+          <div class="col-12 col-lg-3">
+            <h2 class="h5 text-white">Ciberseguridad</h2>
+            <p class="small mb-0">Proyecto educativo · EFPN° 7 · 2026</p>
+          </div>
+          <nav class="col-12 col-lg-7" aria-label="Páginas del sitio">
+            <h2 class="h6 text-uppercase text-info mb-3">Explorar el sitio</h2>
+            <ul
+              class="list-unstyled row row-cols-1 row-cols-sm-2 row-cols-xl-3 g-2 mb-0">
+              <li class="col"><a
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  href="../index.html">Página Principal</a></li>
+              <li class="col"><a
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  href="../trabajo-de-conceptos-basicos/conceptosBasicos.html">Conceptos
+                  básicos</a></li>
+              <li class="col"><a
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  href="../ImportanciadeCiberseguridad/importancia.html">Importancia
+                  de la Ciberseguridad</a></li>
+              <li class="col"><a
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  href="../buenas-practicas/buenasPracticas.html">Buenas
+                  prácticas</a></li>
+              <li class="col"><a
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  href="#">Entorno profesional</a></li>
+              <li class="col"><a
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  href="amenazas.html" aria-current="page">Amenazas comunes y
+                  prevención</a></li>
+              <li class="col"><a
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  href="#">Educación en Ciberseguridad</a></li>
+              <li class="col"><a
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  href="../CarrerasCiberseguridad/carreras.html">Carreras en
+                  Ciberseguridad</a></li>
+              <li class="col"><a
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  href="../ProyectoEscolar/herramientas.html">Recursos y
+                  herramientas</a></li>
+              <li class="col"><a
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  href="../LegislacionCiberseguridad/legislacion.html">Legislación
+                  y normativas</a></li>
+              <li class="col"><a
+                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
+                  href="../tendenciasFuturas/TendenciasFuturas.html">Tendencias
+                  futuras</a></li>
+            </ul>
+          </nav>
+          <div class="col-12 col-lg-2">
+            <h2 class="h6 text-uppercase text-info mb-3">Redes sociales</h2>
+            <div class="d-flex gap-3">
+              <a class="link-info"
+                href="https://www.facebook.com/escfp7/?locale=es_LA"
+                target="_blank"
+                rel="noopener noreferrer" aria-label="Facebook"
+                title="Facebook">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                  fill="currentColor" viewBox="0 0 24 24"
+                  aria-hidden="true">
+                  <path
+                    d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073c0 6.019 4.388 11.018 10.125 11.927v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.953h-1.513c-1.49 0-1.956.93-1.956 1.885v2.26h3.328l-.532 3.49h-2.796V24C19.612 23.091 24 18.092 24 12.073Z" />
+                </svg>
+              </a>
+              <a class="link-info"
+                href="https://www.instagram.com/efp7ok/?hl=es" target="_blank"
+                rel="noopener noreferrer" aria-label="Instagram"
+                title="Instagram">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                  fill="none" stroke="currentColor"
+                  stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="3" y="3" width="18" height="18" rx="5" />
+                  <circle cx="12" cy="12" r="4" />
+                  <circle cx="18" cy="6" r=".75" fill="currentColor"
+                    stroke="none" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr class="border-secondary my-4" />
+        <p class="small text-center mb-0">© 2026 Proyecto educativo de
+          ciberseguridad</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+
+</html>
