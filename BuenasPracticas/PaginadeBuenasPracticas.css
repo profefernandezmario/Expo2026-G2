@@ -1,0 +1,27 @@
+.navbar-ciber {
+    background-color: #050505;
+}
+.centrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linea {
+    display: inline-block;
+    width: 60px;
+    height: 2px;
+    background-color: #FCF1D0;
+}
+.colorfondo{
+  background-color: #0D1C42;
+  color: white;
+}
+.titulo-p2{
+    color: #FCF1D0;
+}
+.titulo2{
+  color: #22396F;
+}
+.titulo3{
+    color: #0D1C42;
+}

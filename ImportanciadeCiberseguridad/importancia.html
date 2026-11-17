@@ -1,1049 +1,739 @@
 <!DOCTYPE html>
 <html lang="es-AR">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Importancia de la ciberseguridad, Ciberseguridad: todos estamos en
-      riesgo</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet">
-    <link rel="shortcut icon" href="../multimedia/IconoColegiosinFondo.ico"
-      type="image/x-icon">
-    <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="importancia.css">
-    <meta name="description"
-      content="Trabajo Practico para exhibir en la EXPO 2026">
-    <meta name="author"
-      content="Desarrollador Web Jr. - Grupo Jueves y Viernes - Docente Mario R. Fernandez">
-    <meta name="keywords"
-      content="HTML5, CSS3, desarrollo web, efp7, resistencia, expo, educacion tecnica, grupo 2, Frontend">
-    <!-- lo siguiente Indica a los rastreadores de los buscadores si deben indexar la página o seguir los enlaces. -->
-    <meta name="robots" content="index, follow">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Importancia de la ciberseguridad, Ciberseguridad: todos estamos en riesgo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="../multimedia/IconoColegiosinFondo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="importancia.css">
+</head>
 
-  <body>
+<body id="inicio">
 
-    <nav class="navbar navbar-expand-lg border-bottom sticky-top"
-      data-bs-theme="dark" aria-label="Menu principal">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html">
-          <img src="Imagenes/EFP7.png" alt="Logo del colegio EFPN° 7" width="80"
-            height="40" />
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul
-            class="navbar-nav flex-wrap align-items-center justify-content-lg-center ">
-            <li class="nav-item">
-              <a class="nav-link" href="../index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link"
-                href="../trabajo-de-conceptos-basicos/conceptosBasicos.html">Bases</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page"
-                href="#">Importancia</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link"
-                href="../buenas-practicas/buenasPracticas.html">Buenas
-                prácticas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Entorno profesional</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link"
-                href="../AmenazasDiarias/amenazas.html">Amenazas y
-                prevención</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Educación</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link"
-                href="../CarrerasCiberseguridad/carreras.html">Carreras</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link"
-                href="../ProyectoEscolar/herramientas.html">Recursos y
-                herramientas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link"
-                href="../LegislacionCiberseguridad/legislacion.html">Legislación
-                y Normativas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link"
-                href="../tendenciasFuturas/TendenciasFuturas.html">Tendencias
-                futuras</a>
-            </li>
-          </ul>
-        </div>
+  <nav class="navbar navbar-expand-lg border-bottom sticky-top" data-bs-theme="dark" aria-label="Menu principal">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">
+        <img src="Imagenes/EFP7.png" alt="Logo del colegio EFPN° 7" width="80" height="40" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav flex-wrap align-items-center justify-content-lg-center">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Página Principal</a></li>
+          <li class="nav-item"><a class="nav-link" href="../ConceptosBasicos/PaginadeConceptosBasicos.html">Bases</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="../ImportanciadeCiberseguridad/importancia.html">Importancia</a></li>
+          <li class="nav-item"><a class="nav-link" href="../BuenasPracticas/PaginadeBuenasPracticas.html">Buenas prácticas</a></li>
+          <li class="nav-item"><a class="nav-link" href="../AmenazasDiarias/amenazas.html">Amenazas y prevención</a></li>
+          <li class="nav-item"><a class="nav-link" href="../CarrerasCiberseguridad/carreras.html">Carreras</a></li>
+          <li class="nav-item"><a class="nav-link" href="../ProyectoEscolar/herramientas.html">Recursos y herramientas</a></li>
+          <li class="nav-item"><a class="nav-link" href="../LegislacionCiberseguridad/legislacion.html">Legislación y normativas</a></li>
+                  <li class="nav-item"><a class="nav-link" href="../tendenciasFuturas/TendenciasFuturas.html">Tendencias futuras</a></li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <main>
+  <main>
 
-      <section class="portada">
-        <div class="container">
-          <div class="row align-items-center g-4">
-            <div class="col-md-7">
-              <h1 class="display-5 fw-bold">Importancía de la ciberseguridad
-                <svg xmlns="http://www.w3.org/2000/svg"
-                  width="40" height="40" fill="currentColor"
-                  class="bi bi-incognito" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd"
-                    d="m4.736 1.968-.892 3.269-.014.058C2.113 5.568 1 6.006 1 6.5 1 7.328 4.134 8 8 8s7-.672 7-1.5c0-.494-1.113-.932-2.83-1.205l-.014-.058-.892-3.27c-.146-.533-.698-.849-1.239-.734C9.411 1.363 8.62 1.5 8 1.5s-1.411-.136-2.025-.267c-.541-.115-1.093.2-1.239.735m.015 3.867a.25.25 0 0 1 .274-.224c.9.092 1.91.143 2.975.143a30 30 0 0 0 2.975-.143.25.25 0 0 1 .05.498c-.918.093-1.944.145-3.025.145s-2.107-.052-3.025-.145a.25.25 0 0 1-.224-.274M3.5 10h2a.5.5 0 0 1 .5.5v1a1.5 1.5 0 0 1-3 0v-1a.5.5 0 0 1 .5-.5m-1.5.5q.001-.264.085-.5H2a.5.5 0 0 1 0-1h3.5a1.5 1.5 0 0 1 1.488 1.312 3.5 3.5 0 0 1 2.024 0A1.5 1.5 0 0 1 10.5 9H14a.5.5 0 0 1 0 1h-.085q.084.236.085.5v1a2.5 2.5 0 0 1-5 0v-.14l-.21-.07a2.5 2.5 0 0 0-1.58 0l-.21.07v.14a2.5 2.5 0 0 1-5 0zm8.5-.5h2a.5.5 0 0 1 .5.5v1a1.5 1.5 0 0 1-3 0v-1a.5.5 0 0 1 .5-.5" />
-                </svg> </h1>
-              <p class="destacado mb-0">
-                Casi todo lo que hacemos hoy deja un rastro digital. Protegerlo
-                es cuidarnos a nosotros, a nuestras
-                familias y a las instituciones que usamos todos los dias.
-              </p>
-            </div>
-            <div class="col-md-5">
-              <img src="./Imagenes/medidas.png" alt
-                class="img-fluid rounded shadow d-block ms-auto">
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <div class="container my-4">
-        <p class="fw-bold text-center">
-          En la actualidad, practicamente cada una de las actividades que
-          realizamos en nuestro dia a dia genera un
-          rastro digital que queda registrado y almacenado en diversos
-          dispositivos electronicos o servidores remotos.
-          Desde el envio de un mensaje y la navegacion por internet, hasta las
-          transacciones bancarias y el uso de
-          aplicaciones cotidianas, nuestra informacion personal circula
-          constantemente por la red.
-        </p>
-      </div>
-
-      <div id="carruselImportancia" class="carousel slide"
-        data-bs-ride="carousel" data-bs-interval="4000"
-        aria-label="Imagenes sobre la importancia de la ciberseguridad">
-
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carruselImportancia"
-            data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Imagen 1"></button>
-          <button type="button" data-bs-target="#carruselImportancia"
-            data-bs-slide-to="1" aria-label="Imagen 2"></button>
-          <button type="button" data-bs-target="#carruselImportancia"
-            data-bs-slide-to="2" aria-label="Imagen 3"></button>
-          <button type="button" data-bs-target="#carruselImportancia"
-            data-bs-slide-to="3" aria-label="Imagen 4"></button>
-          <button type="button" data-bs-target="#carruselImportancia"
-            data-bs-slide-to="4" aria-label="Imagen 5"></button>
-        </div>
-
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="Imagenes/jovencontelefono.jpg"
-              class="d-block w-75 mx-auto"
-              alt="joven usando su telefono celular en casa">
-            <div class="carousel-caption">
-              <h2 class="h5">Telefonos y Redes</h2>
-              <p class="mb-0">Cada dispositivo conectado guarda parte de nuestra
-                vida.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="Imagenes/abueloconnieto.jpg" class="d-block w-75 mx-auto"
-              alt="hombre mayor en la pc con su nieto">
-            <div class="carousel-caption">
-              <h2 class="h5">Nadie es demasiado grande para aprender</h2>
-              <p class="mb-0">Con ayuda y buena informacion, cualquier persona
-                puede navegar con seguridad.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="Imagenes/escudocibernetico.jpg"
-              class="d-block w-75 mx-auto"
-              alt="Pantalla con codigo y simbolos de seguridad informatica">
-            <div class="carousel-caption">
-              <h2 class="h5">Informarte te va a ahorrar muchos problemas</h2>
-              <p class="mb-0">Los ataques cambian todos los dias. Estar al tanto
-                de las nuevas amenazas nos ayuda a no
-                caer en ellas.
-              </p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="Imagenes/doctorafrenteapc.jpg"
-              class="d-block w-75 mx-auto"
-              alt="Doctora trabajando en una clinica">
-            <div class="carousel-caption">
-              <h2 class="h5">En los hospitales y clinicas</h2>
-              <p class="mb-0">Un ciberataque puede afectar los sistemas medicos
-                y retrasar la atencion de los pacientes.
-              </p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="Imagenes/cibercandado.jpg" class="d-block w-75 mx-auto"
-              alt="Candado sobre un teclado que representa una contraseña segura">
-            <div class="carousel-caption">
-              <h2 class="h5">Contrasenas y verificacion en dos pasos</h2>
-              <p class="mb-0">Una contrasena segura es la primera barrera de
-                defensa, como lo mas basico.</p>
-            </div>
-          </div>
-        </div>
-
-        <button class="carousel-control-prev" type="button"
-          data-bs-target="#carruselImportancia" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">imagen anterior</span>
-        </button>
-        <button class="carousel-control-next" type="button"
-          data-bs-target="#carruselImportancia" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">imagen siguiente</span>
-        </button>
-
-        <p class="small text-secondary text-center">
-          Nota: Estas imagenes fueron generadas con inteligencia artificial.
-          (Gemini)
-        </p>
-
-      </div>
-
-      <section class="container my-5">
-        <h2 class="titulo h3">¿Por que es tan importante? <svg
-            xmlns="http://www.w3.org/2000/svg" width="40" height="40"
-            fill="currentColor" class="bi bi-shield-shaded" viewBox="0 0 16 16">
-            <path fill-rule="evenodd"
-              d="M8 14.933a1 1 0 0 0 .1-.025q.114-.034.294-.118c.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7 7 0 0 1-1.048-.625 11.8 11.8 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 63 63 0 0 1 5.072.56" />
-          </svg>
-
-        </h2>
-        <div class="row g-4 align-items-center">
-          <div class="col-lg-7">
-            <p>
-              Usamos Internet para estudiar, trabajar, comprar, pagar y
-              comunicarnos. Cada una de esas
-              acciones involucra datos personales: documentos, contrasenas,
-              fotos, cuentas bancarias.
-              Si alguien accede a ellos sin permiso, las consecuencias pueden ir
-              desde una molestia
-              hasta un dano economico o emocional serio.
+    <section class="portada">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-md-7">
+            <h1 class="display-5 fw-bold">Importancía de la ciberseguridad <svg xmlns="http://www.w3.org/2000/svg"
+                width="40" height="40" fill="currentColor" class="bi bi-incognito" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="m4.736 1.968-.892 3.269-.014.058C2.113 5.568 1 6.006 1 6.5 1 7.328 4.134 8 8 8s7-.672 7-1.5c0-.494-1.113-.932-2.83-1.205l-.014-.058-.892-3.27c-.146-.533-.698-.849-1.239-.734C9.411 1.363 8.62 1.5 8 1.5s-1.411-.136-2.025-.267c-.541-.115-1.093.2-1.239.735m.015 3.867a.25.25 0 0 1 .274-.224c.9.092 1.91.143 2.975.143a30 30 0 0 0 2.975-.143.25.25 0 0 1 .05.498c-.918.093-1.944.145-3.025.145s-2.107-.052-3.025-.145a.25.25 0 0 1-.224-.274M3.5 10h2a.5.5 0 0 1 .5.5v1a1.5 1.5 0 0 1-3 0v-1a.5.5 0 0 1 .5-.5m-1.5.5q.001-.264.085-.5H2a.5.5 0 0 1 0-1h3.5a1.5 1.5 0 0 1 1.488 1.312 3.5 3.5 0 0 1 2.024 0A1.5 1.5 0 0 1 10.5 9H14a.5.5 0 0 1 0 1h-.085q.084.236.085.5v1a2.5 2.5 0 0 1-5 0v-.14l-.21-.07a2.5 2.5 0 0 0-1.58 0l-.21.07v.14a2.5 2.5 0 0 1-5 0zm8.5-.5h2a.5.5 0 0 1 .5.5v1a1.5 1.5 0 0 1-3 0v-1a.5.5 0 0 1 .5-.5" />
+              </svg> </h1>
+            <p class="destacado mb-0">
+              Casi todo lo que hacemos hoy deja un rastro digital. Protegerlo es cuidarnos a nosotros, a nuestras
+              familias y a las instituciones que usamos todos los dias.
             </p>
-            <p class="mb-0">
-              La ciberseguridad es el conjunto de medidas que protegen esa
-              informacion y los sistemas
-              que la manejan. No es solo un tema de tecnicos: <strong>cualquier
-                persona conectada es
-                un posible blanco</strong>, por eso conviene saber como
-              cuidarse.
+          </div>
+          <div class="col-md-5">
+            <img src="./Imagenes/medidas.png" alt="" class="img-fluid rounded shadow d-block ms-auto">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container my-4">
+      <p class="fw-bold text-center">
+        En la actualidad, practicamente cada una de las actividades que realizamos en nuestro dia a dia genera un
+        rastro digital que queda registrado y almacenado en diversos dispositivos electronicos o servidores remotos.
+        Desde el envio de un mensaje y la navegacion por internet, hasta las transacciones bancarias y el uso de
+        aplicaciones cotidianas, nuestra informacion personal circula constantemente por la red.
+      </p>
+    </div>
+
+    <div id="carruselImportancia" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000"
+      aria-label="Imagenes sobre la importancia de la ciberseguridad">
+
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carruselImportancia" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Imagen 1"></button>
+        <button type="button" data-bs-target="#carruselImportancia" data-bs-slide-to="1" aria-label="Imagen 2"></button>
+        <button type="button" data-bs-target="#carruselImportancia" data-bs-slide-to="2" aria-label="Imagen 3"></button>
+        <button type="button" data-bs-target="#carruselImportancia" data-bs-slide-to="3" aria-label="Imagen 4"></button>
+        <button type="button" data-bs-target="#carruselImportancia" data-bs-slide-to="4" aria-label="Imagen 5"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Imagenes/jovencontelefono.jpg" class="d-block w-75 mx-auto"
+            alt="joven usando su telefono celular en casa">
+          <div class="carousel-caption">
+            <h2 class="h5">Telefonos y Redes</h2>
+            <p class="mb-0">Cada dispositivo conectado guarda parte de nuestra vida.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Imagenes/abueloconnieto.jpg" class="d-block w-75 mx-auto" alt="hombre mayor en la pc con su nieto">
+          <div class="carousel-caption">
+            <h2 class="h5">Nadie es demasiado grande para aprender</h2>
+            <p class="mb-0">Con ayuda y buena informacion, cualquier persona puede navegar con seguridad.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Imagenes/escudocibernetico.jpg" class="d-block w-75 mx-auto"
+            alt="Pantalla con codigo y simbolos de seguridad informatica">
+          <div class="carousel-caption">
+            <h2 class="h5">Informarte te va a ahorrar muchos problemas</h2>
+            <p class="mb-0">Los ataques cambian todos los dias. Estar al tanto de las nuevas amenazas nos ayuda a no
+              caer en ellas.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Imagenes/doctorafrenteapc.jpg" class="d-block w-75 mx-auto" alt="Doctora trabajando en una clinica">
+          <div class="carousel-caption">
+            <h2 class="h5">En los hospitales y clinicas</h2>
+            <p class="mb-0">Un ciberataque puede afectar los sistemas medicos y retrasar la atencion de los pacientes.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Imagenes/cibercandado.jpg" class="d-block w-75 mx-auto"
+            alt="Candado sobre un teclado que representa una contraseña segura">
+          <div class="carousel-caption">
+            <h2 class="h5">Contrasenas y verificacion en dos pasos</h2>
+            <p class="mb-0">Una contrasena segura es la primera barrera de defensa, como lo mas basico.</p>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carruselImportancia" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">imagen anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carruselImportancia" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">imagen siguiente</span>
+      </button>
+
+      <p class="small text-secondary text-center">
+        Nota: Estas imagenes fueron generadas con inteligencia artificial. (Gemini)
+      </p>
+
+
+    </div>
+
+    <section class="container my-5">
+      <h2 class="titulo h3">¿Por que es tan importante? <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-shield-shaded" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 14.933a1 1 0 0 0 .1-.025q.114-.034.294-.118c.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7 7 0 0 1-1.048-.625 11.8 11.8 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 63 63 0 0 1 5.072.56"/>
+</svg>
+ 
+      </h2>
+      <div class="row g-4 align-items-center">
+        <div class="col-lg-7">
+          <p>
+            Usamos Internet para estudiar, trabajar, comprar, pagar y comunicarnos. Cada una de esas
+            acciones involucra datos personales: documentos, contrasenas, fotos, cuentas bancarias.
+            Si alguien accede a ellos sin permiso, las consecuencias pueden ir desde una molestia
+            hasta un dano economico o emocional serio.
+          </p>
+          <p class="mb-0">
+            La ciberseguridad es el conjunto de medidas que protegen esa informacion y los sistemas
+            que la manejan. No es solo un tema de tecnicos: <strong>cualquier persona conectada es
+              un posible blanco</strong>, por eso conviene saber como cuidarse.
+          </p>
+          <br>
+          <p>El Foro Economico Mundial destaca que las amenazas ciberneticas estan entre los principales riesgos
+            globales, poniendo en peligro la estabilidad economica y la seguridad de los paises. En este contexto,
+            implementar estandares internacionales como la ISO 27001 es fundamental para establecer sistemas de gestion
+            de seguridad de la informacion robustos y efectivos.
+
+          </p>
+        </div>
+        <div class="col-lg-5">
+          <div class="card border-warning shadow-sm">
+            <div class="row g-0 align-items-center">
+              <div class="col-auto p-3">
+                <img src="Imagenes/advertencia.jpg" alt="cartel amarillo redondo de advertencia"
+                  class="rounded-circle border border-warning border-3" style="width: 100px; height: 100px;">
+              </div>
+              <div class="col">
+                <div class="card-body ps-0">
+                  <h3 class="card-title h5">Un dato para recordar</h3>
+                  <p class="card-text mb-0">
+                    Los atacantes suelen aprovechar el descuido de las personas mas que fallas tecnicas
+                    complejas. Un clic apurado puede abrir la puerta.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container my-5">
+      <h2 class="titulo h3">¿Por que es importante la ciberseguridad?</h2>
+      <div class="accordion" id="AcordionImportante1">
+
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#imp1"
+              aria-expanded="true" aria-controls="imp1">
+              1. Proteccion de la informacion sensible
+            </button>
+          </h3>
+          <div id="imp1" class="accordion-collapse collapse show" data-bs-parent="#AcordionImportante1">
+            <div class="accordion-body">
+              La ciberseguridad asegura que datos confidenciales, como informacion personal, financiera o corporativa,
+              esten protegidos contra el acceso no autorizado. En un entorno donde los datos son uno de los activos mas
+              valiosos de una organizacion, proteger esta informacion es esencial para evitar el robo, la perdida o la
+              exposicion de datos sensibles.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#imp2"
+              aria-expanded="false" aria-controls="imp2">
+              2. Mantenimiento de la confianza y la reputacion
+            </button>
+          </h3>
+          <div id="imp2" class="accordion-collapse collapse" data-bs-parent="#AcordionImportante1">
+            <div class="accordion-body">
+              Cuando una empresa sufre un ataque cibernetico o una brecha de seguridad, la confianza de sus clientes y
+              socios se ve gravemente afectada. La ciberseguridad, al proteger la integridad y privacidad de los datos,
+              contribuye a mantener la reputacion de la organizacion. La confianza es clave para el exito a largo plazo,
+              y una buena estrategia de ciberseguridad es fundamental para preservarla.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#imp3"
+              aria-expanded="false" aria-controls="imp3">
+              3. Cumplimiento de normativas y regulaciones
+            </button>
+          </h3>
+          <div id="imp3" class="accordion-collapse collapse" data-bs-parent="#AcordionImportante1">
+            <div class="accordion-body">
+              Las leyes y regulaciones sobre privacidad de datos, como el Reglamento General de Proteccion de Datos
+              (GDPR) en Europa o la Ley de Proteccion de Informacion Personal en algunos paises de America Latina,
+              requieren que las empresas protejan adecuadamente la informacion personal de sus usuarios. La
+              ciberseguridad no solo es una cuestion tecnica, sino tambien legal. No cumplir con estos requisitos puede
+              resultar en sanciones y perdidas economicas significativas.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#imp4"
+              aria-expanded="false" aria-controls="imp4">
+              4. Seguridad en la economia digital
+            </button>
+          </h3>
+          <div id="imp4" class="accordion-collapse collapse" data-bs-parent="#AcordionImportante1">
+            <div class="accordion-body">
+              La economia global esta cada vez mas basada en el comercio digital, y las empresas dependen de plataformas
+              en linea, aplicaciones y servicios en la nube para interactuar con clientes y socios. Sin una proteccion
+              cibernetica adecuada, las empresas y consumidores estarian expuestos a una amplia gama de riesgos
+              digitales, desde fraudes hasta la perdida de confianza en el ecosistema digital.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#imp5"
+              aria-expanded="false" aria-controls="imp5">
+              5. Defensa contra la evolucion de las amenazas
+            </button>
+          </h3>
+          <div id="imp5" class="accordion-collapse collapse" data-bs-parent="#AcordionImportante1">
+            <div class="accordion-body">
+              Las amenazas ciberneticas estan en constante evolucion. Los atacantes siempre estan buscando nuevas formas
+              de vulnerar los sistemas, lo que significa que las empresas deben estar en constante alerta y
+              actualizacion. La ciberseguridad incluye no solo la proteccion de sistemas actuales, sino tambien la
+              adaptacion a nuevas vulnerabilidades y amenazas a medida que surgen.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="container my-5">
+      <h2 class="titulo h3">¿Donde es importante? <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+          fill="currentColor" class="bi bi-bookmark-check-fill" viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5m8.854-9.646a.5.5 0 0 0-.708-.708L7.5 7.793 6.354 6.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0z" />
+        </svg></h2>
+
+      <div class="row align-items-center g-4 tarjetita">
+        <div class="col-md-5">
+          <img src="Imagenes/abuelaaprendiendo.jpg" alt="persona mayor con su nieta en la pc" class="rounded">
+        </div>
+        <div class="col-md-7">
+          <h3 class="h5">Hogares</h3>
+          <p class="mb-0">Celulares, computadoras, camaras y redes Wi-Fi guardan fotos, chats y datos de pago de toda
+            la familia.</p>
+        </div>
+      </div>
+
+      <div class="row align-items-center g-4 tarjetita">
+        <div class="col-md-7">
+          <h3 class="h5">Escuelas</h3>
+          <p class="mb-0">Manejan datos de estudiantes y docentes, muchos de ellos menores de edad, ademas de
+            plataformas de clase online.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="Imagenes/escuela.jpg" alt="Escuela con estudiantes" class="rounded">
+        </div>
+      </div>
+
+      <div class="row align-items-center g-4 tarjetita">
+        <div class="col-md-5">
+          <img src="Imagenes/oficinadeempresa.jpg" alt="Oficina de una empresa con personas trabajando en computadoras"
+            class="rounded">
+        </div>
+        <div class="col-md-7">
+          <h3 class="h5">Empresas</h3>
+          <p class="mb-0">Protegen informacion de clientes, facturacion y secretos del negocio. Un ataque puede
+            frenar la actividad por dias.</p>
+        </div>
+      </div>
+
+      <div class="row align-items-center g-4 tarjetita">
+        <div class="col-md-7">
+          <h3 class="h5">Bancos y finanzas</h3>
+          <p class="mb-0">Custodian dinero y datos sensibles. Son un objetivo frecuente de fraudes y robo de
+            identidad.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="Imagenes/financiera.jpg" alt="interior de un banco o lugar financiero" class="rounded">
+        </div>
+      </div>
+
+      <div class="row align-items-center g-4 tarjetita">
+        <div class="col-md-5">
+          <img src="Imagenes/doctorenclinica.jpg" alt="medico revisando datos un hospital" class="rounded">
+        </div>
+        <div class="col-md-7">
+          <h3 class="h5">Hospitales</h3>
+          <p class="mb-0">Guardan historias clinicas y dependen de equipos conectados. Una falla puede afectar la
+            atencion de pacientes.</p>
+        </div>
+      </div>
+
+      <div class="row align-items-center g-4 tarjetita">
+        <div class="col-md-7">
+          <h3 class="h5">Organismos publicos</h3>
+          <p class="mb-0">Tienen registros de ciudadanos y ofrecen tramites en linea. La confianza en el Estado
+            depende en parte de cuidarlos.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="Imagenes/edificiopublico.jpg" alt="fachada de un edificio publico" class="rounded">
+        </div>
+      </div>
+
+      <div class="row align-items-center g-4 tarjetita">
+        <div class="col-md-5">
+          <img src="Imagenes/imagen10.jpg" alt="torres de alta tension y una central de energia" class="rounded">
+        </div>
+        <div class="col-md-7">
+          <h3 class="h5">Infraestructuras criticas</h3>
+          <p class="mb-0">Son los servicios que sostienen la vida diaria: energia electrica, agua potable,
+            transporte y telecomunicaciones. Como funcionan conectadas, un ciberataque puede afectar a miles de
+            personas a la vez.</p>
+        </div>
+      </div>
+
+      <p class="small text-secondary mt-4 mb-0">
+        Nota: las imagenes de esta seccion fueron generadas con inteligencia artificial. (Gemini)
+      </p>
+    </section>
+
+    <section class="container my-5">
+      <h2 class="titulo h3 mb-3">Ciberataques a instituciones en Argentina entre 2023 y 2026 <svg
+          xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+          class="bi bi-house-exclamation-fill" viewBox="0 0 16 16">
+          <path
+            d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z" />
+          <path d="m8 3.293 4.712 4.712A4.5 4.5 0 0 0 8.758 15H3.5A1.5 1.5 0 0 1 2 13.5V9.293z" />
+          <path
+            d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0m-3.5-2a.5.5 0 0 0-.5.5v1.5a.5.5 0 1 0 1 0V11a.5.5 0 0 0-.5-.5m0 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1" />
+        </svg></h2>
+      <ul class="nav justify-content-center gap-2 mb-3" id="casosTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="btn btn-outline-primary active" id="caso1-tab" data-bs-toggle="tab" data-bs-target="#caso1" type="button"
+      role="tab" aria-controls="caso1" aria-selected="true">Caso 1</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="btn btn-outline-primary" id="caso2-tab" data-bs-toggle="tab" data-bs-target="#caso2" type="button"
+      role="tab" aria-controls="caso2" aria-selected="false">Caso 2</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="btn btn-outline-primary" id="caso3-tab" data-bs-toggle="tab" data-bs-target="#caso3" type="button"
+      role="tab" aria-controls="caso3" aria-selected="false">Caso 3</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="btn btn-outline-primary" id="caso4-tab" data-bs-toggle="tab" data-bs-target="#caso4" type="button"
+      role="tab" aria-controls="caso4" aria-selected="false">Dato Curioso</button>
+  </li>
+</ul>
+      <div class="row justify-content-center">
+        <div class="col-lg-8 tab-content" id="casosContenido">
+          <div class="tab-pane fade show active" id="caso1" role="tabpanel" aria-labelledby="caso1-tab" tabindex="0">
+            <img src="Imagenes/UBA.jpg" class="img-fluid d-block w-100 rounded mb-3"
+              alt="Foto de la Universidad de Buenos Aires">
+            <span class="badge text-bg-secondary mb-2">Jueves 14 de diciembre de 2023.</span>
+            <h3 class="h5">La UBA sufrio un ciberataque de ransomware</h3>
+
+            <p>A fines de 2023, cuando terminaba el ciclo lectivo y se acercaban las vacaciones de verano, la UBA sufrio
+              un
+              ataque que dejo sin funcionar parte de sus servidores. Los sistemas informaticos mas importantes
+              quedaron paralizados, y docentes y alumnos no pudieron hacer tramites basicos como cargar o
+              consultar calificaciones, inscribirse a materias y cursos de verano, o entrar a otras plataformas
+              de consulta administrativa.</p>
+
+            <p> Frente a esto, el equipo de sistemas y seguridad informatica de la universidad puso en marcha enseguida
+              un plan
+              de contingencia. Gracias a ese trabajo de emergencia, los accesos mas urgentes para que la
+              universidad pudiera funcionar se restablecieron antes de las fiestas, hacia el 23 y 24 de
+              diciembre de 2023, y las plataformas mas usadas fueron volviendo a funcionar de a poco. </p>
+
+            <p> Sin embargo, las autoridades de la universidad avisaron en sus comunicados oficiales que recuperar el
+              acceso no
+              significaba que el problema estuviera resuelto. Por eso, los trabajos de seguridad siguieron
+              durante las semanas siguientes: limpiar los sistemas afectados y dejar toda la infraestructura
+              interna funcionando bien, lo que incluyo reconfigurar y reforzar los servidores Windows, instalar
+              nuevos firewalls y poner en marcha portales administrativos renovados y mas seguros. Las tareas
+              terminaron recien a comienzos de 2024. </p>
+
+            <p>Fuente:</p>
+            <p class="small mb-0">
+              <a href="https://www.boletinoficial.gob.ar/pdf/aviso/primera/304260/20250704"
+                target="_blank">boletinoficial.gob.ar</a>
+              <br>
+
+              <a href="https://www.pexels.com/es-es/foto/vista-diurna-del-campus-de-la-universidad-de-buenos-aires-38331854/"
+                target="_blank">pexels.com.es</a>
+            </p>
+          </div>
+          <div class="tab-pane fade" id="caso2" role="tabpanel" aria-labelledby="caso2-tab" tabindex="0">
+            <img src="Imagenes/Caso2.jpg" class="img-fluid d-block w-100 rounded mb-3"
+              alt="Persona trabajando en una notebook">
+            <span class="badge text-bg-secondary mb-2">23 de octubre de 2023</span>
+            <h3 class="h5">Secuestro de sistemas en 250 municipios</h3>
+            <p>Un virus de tipo ransomware ataco a los servidores centralizados de la empresa Program Consultores S.A.
+              (PGM), proveedora de software de gestion para mas de 250 municipios en 11 provincias argentinas. Esto
+              paralizo por completo las paginas web, la recaudacion de tasas municipales y los tramites de hacienda de
+              localidades en Cordoba (como Villa Carlos Paz), Santa Fe y Santa Cruz (como Rio Gallegos).
+            </p>
+            <p> Los atacantes exigieron un rescate inicial de 3 Bitcoins por municipio afectado, bajo la amenaza de
+              duplicar la cifra cada 12 horas si no se concretaba el pago. La firma Program Consultores S.A. se nego
+              rotundamente a pagar.</p>
+
+            <p> Las tareas de emergencia empezaron el mismo fin de semana del ataque. Volver a la normalidad por
+              completo llevo
+              entre 3 y 5 dias habiles, segun el municipio. Que tan rapido se recupero cada uno dependio de que
+              tan actualizada estuviera su ultima copia de seguridad (backup).</p>
+
+            <p> Al no ceder a la extorsion ni obtener las claves de descifrado, la unica alternativa fue tecnica. Los
+              equipos informaticos de la empresa y de cada municipalidad tuvieron que formatear o reemplazar los discos
+              de los servidores afectados y reinstalar todo el sistema operativo desde cero.</p>
+
+            <p>Fuentes:</p>
+            <p class="small mb-0">
+              <a href="https://www.lavoz.com.ar/ciudadanos/ataque-informatico-afecta-carlos-paz-municipalidades-cordobesas_0_EFu90PuWP2.html"
+                target="_blank">lavoz.com.ar</a>
+              <br>
+
+              <a
+                href=" https://www.tiemposur.com.ar/info-general/diego-robles-explico-la-situacion-municipal-tras-el-ataque-informatico-contra-pgm">tiemposur.com.ar</a>
+
+              <br>
+
+              <a href="https://www.pexels.com/es-es/foto/persona-que-usa-macbook-pro-574077/"
+                target="_blank">Pexels.com.es</a>
+
+            </p>
+          </div>
+          <div class="tab-pane fade" id="caso3" role="tabpanel" aria-labelledby="caso3-tab" tabindex="0">
+            <img src="Imagenes/PAMI.jpg" class="img-fluid d-block w-100 rounded mb-3" alt="Sede del PAMI">
+            <span class="badge text-bg-secondary mb-2">2 de agosto de 2023</span>
+            <h3 class="h5">El ciberataque al PAMI</h3>
+            <p>El ciberataque al PAMI en 2023 fue uno de los incidentes de ciberseguridad mas graves de la historia
+              reciente de
+              Argentina. Afecto directamente la salud y la privacidad de unos cinco millones de jubilados y
+              pensionados.</p>
+
+            <p>El grupo Rhysida logro entrar a los sistemas informaticos del PAMI con un ransomware.</p>
+
+            <p> Se cree que el virus entro mediante tecnicas de engano como el phishing (probablemente robando las
+              credenciales
+              de algun prestador o medico). Una vez adentro, encripto los archivos de los servidores internos y
+              el personal no pudo volver a usarlos.</p>
+
+            <p> Los atacantes dejaron un mensaje pidiendo un rescate de 25 Bitcoins (entre 500,000 y 735,000 dolares
+              aproximadamente en ese momento) a cambio de no publicar la informacion. El Estado argentino,
+              siguiendo su protocolo, no pago el rescate.</p>
+
+            <p>El ataque dejo a la obra social sin sistemas digitales durante semanas. Las recetas electronicas y las
+              ordenes
+              medicas digitales dejaron de funcionar, asi que el PAMI tuvo que autorizar de emergencia el uso de
+              papel: los medicos debian hacer las recetas a mano y con firma fisica para que los pacientes
+              pudieran retirar sus medicamentos en las farmacias. Los tramites de derivaciones, la entrega de
+              panales, las autorizaciones de tratamientos de alta complejidad y la gestion de turnos tuvieron
+              que hacerse a mano en las agencias, y eso genero demoras enormes.
+            </p>
+
+            <p>Aunque al principio las autoridades dijeron que los datos estaban a salvo, el grupo Rhysida cumplio su
+              amenaza a
+              mediados de agosto de 2023 y publico en la Deep Web 831 GB de informacion robada (mas de 1.6
+              millones de archivos). La filtracion expuso datos muy sensibles.
+            </p>
+            <p>Fuentes:</p>
+            <p class="small mb-0">
+              <a href="https://www.lavoz.com.ar/ciudadanos/ataque-informatico-afecta-carlos-paz-municipalidades-cordobesas_0_EFu90PuWP2.html"
+                target="_blank">lavoz.com.ar</a>
+
+              <br>
+
+              <a href="https://www.lanacion.com.ar/sociedad/hackeo-al-pami-se-agrava-la-atencion-medica-y-en-farmacias-a-los-afiliados-nid09082023/"
+                target="_blank">lanacion.com.ar</a>
             </p>
             <br>
-            <p>El Foro Economico Mundial destaca que las amenazas ciberneticas
-              estan entre los principales riesgos
-              globales, poniendo en peligro la estabilidad economica y la
-              seguridad de los paises. En este contexto,
-              implementar estandares internacionales como la ISO 27001 es
-              fundamental para establecer sistemas de gestion
-              de seguridad de la informacion robustos y efectivos.
 
+          </div>
+          <div class="tab-pane fade" id="caso4" role="tabpanel" aria-labelledby="caso4-tab" tabindex="0">
+
+            <img src="./Imagenes/yuyo.jpg" alt="" class="img-fluid d-block mx-auto w-100">
+            <small> la imagen fue hecha con inteligencia artificial. (Gemini) </small>
+            <br>
+            <span class="badge text-bg-secondary mb-2">Todo comenzo en el año 1978</span>
+
+            <h3 class="h5">El primer hacker Argentino de la historia</h3>
+
+            <p>En 1978, Raul Horacio Barragan descubrio la manera de volar gratis con un truco via telex; inició alli un
+              raid de timos que incluyo viajes por el mundo, pero también huidas y choques con la ley.</p>
+
+            <p> <b>Uso del Télex y códigos SITA</b>: Trabajando en una oficina de Aerolíneas Argentinas en Concordia,
+              aprendió detalladamente cómo operaba el sistema de mensajería electrónica. Descubrió las "claves de
+              navegación" (llegó a dominar unas 120.000 combinaciones de códigos) que utilizaban las agencias para
+              autorizar y confirmar pasajes. </p>
+
+            <p><b>Simulación de caídas y errores de satélite</b>: Para enviar órdenes sin levantar sospechas directas de
+              las oficinas centrales de Buenos Aires, Barragán utilizaba un código de error específico (secuencias como
+              LLLL). Esto forzaba una interrupción temporal del sistema de transmisión y hacía que sus mensajes
+              falsificados parecieran retransmisiones automáticas provocadas por un error satelital o técnico.</p>
+
+            <p><b>Aprobación de pasajes directos desde el exterior</b>: Al saltarse los controles locales, enviaba las
+              solicitudes de emisión de billetes directamente a la central de SITA en Suiza o a las aerolíneas
+              internacionales involucradas. El sistema central interpretaba que la petición venía validada correctamente
+              y emitía la orden de entrega de pasajes en las ventanillas de aeropuertos de cualquier parte del mundo.
+            </p>
+
+            <p><b>Control total de la reserva</b>: Con el tiempo, perfecciono tanto su conocimiento del código de SITA
+              que no solo emitía el pasaje base: enviaba comandos falsos modificando los billetes a Primera Clase,
+              solicitando menús especiales e incluso redireccionando el rastreo de equipajes.</p>
+
+            <p class="small mb-0">
+              Fuente: <a
+                href="https://www.infobae.com/economia/2021/09/26/la-increible-historia-del-primer-hacker-argentino-en-la-era-pre-internet-viajo-por-todo-el-mundo-sin-pagar-un-solo-peso/"
+                target="_blank">infobae.com</a>
             </p>
           </div>
-          <div class="col-lg-5">
-            <div class="card border-warning shadow-sm">
-              <div class="row g-0 align-items-center">
-                <div class="col-auto p-3">
-                  <img src="Imagenes/advertencia.jpg"
-                    alt="cartel amarillo redondo de advertencia"
-                    class="rounded-circle border border-warning border-3"
-                    style="width: 100px; height: 100px;">
-                </div>
-                <div class="col">
-                  <div class="card-body ps-0">
-                    <h3 class="card-title h5">Un dato para recordar</h3>
-                    <p class="card-text mb-0">
-                      Los atacantes suelen aprovechar el descuido de las
-                      personas mas que fallas tecnicas
-                      complejas. Un clic apurado puede abrir la puerta.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </section>
-
-      <section class="container my-5">
-        <h2 class="titulo h3">¿Por que es importante la ciberseguridad?</h2>
-        <div class="accordion" id="AcordionImportante1">
-
-          <div class="accordion-item">
-            <h3 class="accordion-header">
-              <button class="accordion-button" type="button"
-                data-bs-toggle="collapse" data-bs-target="#imp1"
-                aria-expanded="true" aria-controls="imp1">
-                1. Proteccion de la informacion sensible
-              </button>
-            </h3>
-            <div id="imp1" class="accordion-collapse collapse show"
-              data-bs-parent="#AcordionImportante1">
-              <div class="accordion-body">
-                La ciberseguridad asegura que datos confidenciales, como
-                informacion personal, financiera o corporativa,
-                esten protegidos contra el acceso no autorizado. En un entorno
-                donde los datos son uno de los activos mas
-                valiosos de una organizacion, proteger esta informacion es
-                esencial para evitar el robo, la perdida o la
-                exposicion de datos sensibles.
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h3 class="accordion-header">
-              <button class="accordion-button collapsed" type="button"
-                data-bs-toggle="collapse" data-bs-target="#imp2"
-                aria-expanded="false" aria-controls="imp2">
-                2. Mantenimiento de la confianza y la reputacion
-              </button>
-            </h3>
-            <div id="imp2" class="accordion-collapse collapse"
-              data-bs-parent="#AcordionImportante1">
-              <div class="accordion-body">
-                Cuando una empresa sufre un ataque cibernetico o una brecha de
-                seguridad, la confianza de sus clientes y
-                socios se ve gravemente afectada. La ciberseguridad, al proteger
-                la integridad y privacidad de los datos,
-                contribuye a mantener la reputacion de la organizacion. La
-                confianza es clave para el exito a largo plazo,
-                y una buena estrategia de ciberseguridad es fundamental para
-                preservarla.
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h3 class="accordion-header">
-              <button class="accordion-button collapsed" type="button"
-                data-bs-toggle="collapse" data-bs-target="#imp3"
-                aria-expanded="false" aria-controls="imp3">
-                3. Cumplimiento de normativas y regulaciones
-              </button>
-            </h3>
-            <div id="imp3" class="accordion-collapse collapse"
-              data-bs-parent="#AcordionImportante1">
-              <div class="accordion-body">
-                Las leyes y regulaciones sobre privacidad de datos, como el
-                Reglamento General de Proteccion de Datos
-                (GDPR) en Europa o la Ley de Proteccion de Informacion Personal
-                en algunos paises de America Latina,
-                requieren que las empresas protejan adecuadamente la informacion
-                personal de sus usuarios. La
-                ciberseguridad no solo es una cuestion tecnica, sino tambien
-                legal. No cumplir con estos requisitos puede
-                resultar en sanciones y perdidas economicas significativas.
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h3 class="accordion-header">
-              <button class="accordion-button collapsed" type="button"
-                data-bs-toggle="collapse" data-bs-target="#imp4"
-                aria-expanded="false" aria-controls="imp4">
-                4. Seguridad en la economia digital
-              </button>
-            </h3>
-            <div id="imp4" class="accordion-collapse collapse"
-              data-bs-parent="#AcordionImportante1">
-              <div class="accordion-body">
-                La economia global esta cada vez mas basada en el comercio
-                digital, y las empresas dependen de plataformas
-                en linea, aplicaciones y servicios en la nube para interactuar
-                con clientes y socios. Sin una proteccion
-                cibernetica adecuada, las empresas y consumidores estarian
-                expuestos a una amplia gama de riesgos
-                digitales, desde fraudes hasta la perdida de confianza en el
-                ecosistema digital.
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h3 class="accordion-header">
-              <button class="accordion-button collapsed" type="button"
-                data-bs-toggle="collapse" data-bs-target="#imp5"
-                aria-expanded="false" aria-controls="imp5">
-                5. Defensa contra la evolucion de las amenazas
-              </button>
-            </h3>
-            <div id="imp5" class="accordion-collapse collapse"
-              data-bs-parent="#AcordionImportante1">
-              <div class="accordion-body">
-                Las amenazas ciberneticas estan en constante evolucion. Los
-                atacantes siempre estan buscando nuevas formas
-                de vulnerar los sistemas, lo que significa que las empresas
-                deben estar en constante alerta y
-                actualizacion. La ciberseguridad incluye no solo la proteccion
-                de sistemas actuales, sino tambien la
-                adaptacion a nuevas vulnerabilidades y amenazas a medida que
-                surgen.
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-      <section class="container my-5">
-        <h2 class="titulo h3">¿Donde es importante? <svg
-            xmlns="http://www.w3.org/2000/svg" width="40" height="40"
-            fill="currentColor" class="bi bi-bookmark-check-fill"
-            viewBox="0 0 16 16">
-            <path fill-rule="evenodd"
-              d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5m8.854-9.646a.5.5 0 0 0-.708-.708L7.5 7.793 6.354 6.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0z" />
-          </svg></h2>
-
-        <div class="row align-items-center g-4 tarjetita">
-          <div class="col-md-5">
-            <img src="Imagenes/abuelaaprendiendo.jpg"
-              alt="persona mayor con su nieta en la pc" class="rounded">
-          </div>
-          <div class="col-md-7">
-            <h3 class="h5">Hogares</h3>
-            <p class="mb-0">Celulares, computadoras, camaras y redes Wi-Fi
-              guardan fotos, chats y datos de pago de toda
-              la familia.</p>
-          </div>
-        </div>
-
-        <div class="row align-items-center g-4 tarjetita">
-          <div class="col-md-7">
-            <h3 class="h5">Escuelas</h3>
-            <p class="mb-0">Manejan datos de estudiantes y docentes, muchos de
-              ellos menores de edad, ademas de
-              plataformas de clase online.</p>
-          </div>
-          <div class="col-md-5">
-            <img src="Imagenes/escuela.jpg" alt="Escuela con estudiantes"
-              class="rounded">
-          </div>
-        </div>
-
-        <div class="row align-items-center g-4 tarjetita">
-          <div class="col-md-5">
-            <img src="Imagenes/oficinadeempresa.jpg"
-              alt="Oficina de una empresa con personas trabajando en computadoras"
-              class="rounded">
-          </div>
-          <div class="col-md-7">
-            <h3 class="h5">Empresas</h3>
-            <p class="mb-0">Protegen informacion de clientes, facturacion y
-              secretos del negocio. Un ataque puede
-              frenar la actividad por dias.</p>
-          </div>
-        </div>
-
-        <div class="row align-items-center g-4 tarjetita">
-          <div class="col-md-7">
-            <h3 class="h5">Bancos y finanzas</h3>
-            <p class="mb-0">Custodian dinero y datos sensibles. Son un objetivo
-              frecuente de fraudes y robo de
-              identidad.</p>
-          </div>
-          <div class="col-md-5">
-            <img src="Imagenes/financiera.jpg"
-              alt="interior de un banco o lugar financiero" class="rounded">
-          </div>
-        </div>
-
-        <div class="row align-items-center g-4 tarjetita">
-          <div class="col-md-5">
-            <img src="Imagenes/doctorenclinica.jpg"
-              alt="medico revisando datos un hospital" class="rounded">
-          </div>
-          <div class="col-md-7">
-            <h3 class="h5">Hospitales</h3>
-            <p class="mb-0">Guardan historias clinicas y dependen de equipos
-              conectados. Una falla puede afectar la
-              atencion de pacientes.</p>
-          </div>
-        </div>
-
-        <div class="row align-items-center g-4 tarjetita">
-          <div class="col-md-7">
-            <h3 class="h5">Organismos publicos</h3>
-            <p class="mb-0">Tienen registros de ciudadanos y ofrecen tramites en
-              linea. La confianza en el Estado
-              depende en parte de cuidarlos.</p>
-          </div>
-          <div class="col-md-5">
-            <img src="Imagenes/edificiopublico.jpg"
-              alt="fachada de un edificio publico" class="rounded">
-          </div>
-        </div>
-
-        <div class="row align-items-center g-4 tarjetita">
-          <div class="col-md-5">
-            <img src="Imagenes/imagen10.jpg"
-              alt="torres de alta tension y una central de energia"
-              class="rounded">
-          </div>
-          <div class="col-md-7">
-            <h3 class="h5">Infraestructuras criticas</h3>
-            <p class="mb-0">Son los servicios que sostienen la vida diaria:
-              energia electrica, agua potable,
-              transporte y telecomunicaciones. Como funcionan conectadas, un
-              ciberataque puede afectar a miles de
-              personas a la vez.</p>
-          </div>
-        </div>
-
-        <p class="small text-secondary mt-4 mb-0">
-          Nota: las imagenes de esta seccion fueron generadas con inteligencia
-          artificial. (Gemini)
-        </p>
-      </section>
-
-      <section class="container my-5">
-        <h2 class="titulo h3 mb-3">Ciberataques a instituciones en Argentina
-          entre 2023 y 2026 <svg
-            xmlns="http://www.w3.org/2000/svg" width="40" height="40"
-            fill="currentColor"
-            class="bi bi-house-exclamation-fill" viewBox="0 0 16 16">
-            <path
-              d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z" />
-            <path
-              d="m8 3.293 4.712 4.712A4.5 4.5 0 0 0 8.758 15H3.5A1.5 1.5 0 0 1 2 13.5V9.293z" />
-            <path
-              d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0m-3.5-2a.5.5 0 0 0-.5.5v1.5a.5.5 0 1 0 1 0V11a.5.5 0 0 0-.5-.5m0 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1" />
-          </svg></h2>
-        <ul class="nav justify-content-center gap-2 mb-3" id="casosTab"
-          role="tablist">
-          <li class="nav-item" role="presentation">
-            <button class="btn btn-outline-primary active" id="caso1-tab"
-              data-bs-toggle="tab" data-bs-target="#caso1" type="button"
-              role="tab" aria-controls="caso1" aria-selected="true">Caso
-              1</button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="btn btn-outline-primary" id="caso2-tab"
-              data-bs-toggle="tab" data-bs-target="#caso2" type="button"
-              role="tab" aria-controls="caso2" aria-selected="false">Caso
-              2</button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="btn btn-outline-primary" id="caso3-tab"
-              data-bs-toggle="tab" data-bs-target="#caso3" type="button"
-              role="tab" aria-controls="caso3" aria-selected="false">Caso
-              3</button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="btn btn-outline-primary" id="caso4-tab"
-              data-bs-toggle="tab" data-bs-target="#caso4" type="button"
-              role="tab" aria-controls="caso4" aria-selected="false">Dato
-              Curioso</button>
-          </li>
-        </ul>
-        <div class="row justify-content-center">
-          <div class="col-lg-8 tab-content" id="casosContenido">
-            <div class="tab-pane fade show active" id="caso1" role="tabpanel"
-              aria-labelledby="caso1-tab" tabindex="0">
-              <img src="Imagenes/UBA.jpg"
-                class="img-fluid d-block w-100 rounded mb-3"
-                alt="Foto de la Universidad de Buenos Aires">
-              <span class="badge text-bg-secondary mb-2">Jueves 14 de diciembre
-                de 2023.</span>
-              <h3 class="h5">La UBA sufrio un ciberataque de ransomware</h3>
-
-              <p>A fines de 2023, cuando terminaba el ciclo lectivo y se
-                acercaban las vacaciones de verano, la UBA sufrio
-                un
-                ataque que dejo sin funcionar parte de sus servidores. Los
-                sistemas informaticos mas importantes
-                quedaron paralizados, y docentes y alumnos no pudieron hacer
-                tramites basicos como cargar o
-                consultar calificaciones, inscribirse a materias y cursos de
-                verano, o entrar a otras plataformas
-                de consulta administrativa.</p>
-
-              <p> Frente a esto, el equipo de sistemas y seguridad informatica
-                de la universidad puso en marcha enseguida
-                un plan
-                de contingencia. Gracias a ese trabajo de emergencia, los
-                accesos mas urgentes para que la
-                universidad pudiera funcionar se restablecieron antes de las
-                fiestas, hacia el 23 y 24 de
-                diciembre de 2023, y las plataformas mas usadas fueron volviendo
-                a funcionar de a poco. </p>
-
-              <p> Sin embargo, las autoridades de la universidad avisaron en sus
-                comunicados oficiales que recuperar el
-                acceso no
-                significaba que el problema estuviera resuelto. Por eso, los
-                trabajos de seguridad siguieron
-                durante las semanas siguientes: limpiar los sistemas afectados y
-                dejar toda la infraestructura
-                interna funcionando bien, lo que incluyo reconfigurar y reforzar
-                los servidores Windows, instalar
-                nuevos firewalls y poner en marcha portales administrativos
-                renovados y mas seguros. Las tareas
-                terminaron recien a comienzos de 2024. </p>
-
-              <p>Fuente:</p>
-              <p class="small mb-0">
-                <a
-                  href="https://www.boletinoficial.gob.ar/pdf/aviso/primera/304260/20250704"
-                  target="_blank">boletinoficial.gob.ar</a>
-                <br>
-
-                <a
-                  href="https://www.pexels.com/es-es/foto/vista-diurna-del-campus-de-la-universidad-de-buenos-aires-38331854/"
-                  target="_blank">pexels.com.es</a>
-              </p>
-            </div>
-            <div class="tab-pane fade" id="caso2" role="tabpanel"
-              aria-labelledby="caso2-tab" tabindex="0">
-              <img src="Imagenes/Caso2.jpg"
-                class="img-fluid d-block w-100 rounded mb-3"
-                alt="Persona trabajando en una notebook">
-              <span class="badge text-bg-secondary mb-2">23 de octubre de
-                2023</span>
-              <h3 class="h5">Secuestro de sistemas en 250 municipios</h3>
-              <p>Un virus de tipo ransomware ataco a los servidores
-                centralizados de la empresa Program Consultores S.A.
-                (PGM), proveedora de software de gestion para mas de 250
-                municipios en 11 provincias argentinas. Esto
-                paralizo por completo las paginas web, la recaudacion de tasas
-                municipales y los tramites de hacienda de
-                localidades en Cordoba (como Villa Carlos Paz), Santa Fe y Santa
-                Cruz (como Rio Gallegos).
-              </p>
-              <p> Los atacantes exigieron un rescate inicial de 3 Bitcoins por
-                municipio afectado, bajo la amenaza de
-                duplicar la cifra cada 12 horas si no se concretaba el pago. La
-                firma Program Consultores S.A. se nego
-                rotundamente a pagar.</p>
-
-              <p> Las tareas de emergencia empezaron el mismo fin de semana del
-                ataque. Volver a la normalidad por
-                completo llevo
-                entre 3 y 5 dias habiles, segun el municipio. Que tan rapido se
-                recupero cada uno dependio de que
-                tan actualizada estuviera su ultima copia de seguridad
-                (backup).</p>
-
-              <p> Al no ceder a la extorsion ni obtener las claves de
-                descifrado, la unica alternativa fue tecnica. Los
-                equipos informaticos de la empresa y de cada municipalidad
-                tuvieron que formatear o reemplazar los discos
-                de los servidores afectados y reinstalar todo el sistema
-                operativo desde cero.</p>
-
-              <p>Fuentes:</p>
-              <p class="small mb-0">
-                <a
-                  href="https://www.lavoz.com.ar/ciudadanos/ataque-informatico-afecta-carlos-paz-municipalidades-cordobesas_0_EFu90PuWP2.html"
-                  target="_blank">lavoz.com.ar</a>
-                <br>
-
-                <a
-                  href=" https://www.tiemposur.com.ar/info-general/diego-robles-explico-la-situacion-municipal-tras-el-ataque-informatico-contra-pgm">tiemposur.com.ar</a>
-
-                <br>
-
-                <a
-                  href="https://www.pexels.com/es-es/foto/persona-que-usa-macbook-pro-574077/"
-                  target="_blank">Pexels.com.es</a>
-
-              </p>
-            </div>
-            <div class="tab-pane fade" id="caso3" role="tabpanel"
-              aria-labelledby="caso3-tab" tabindex="0">
-              <img src="Imagenes/PAMI.jpg"
-                class="img-fluid d-block w-100 rounded mb-3"
-                alt="Sede del PAMI">
-              <span class="badge text-bg-secondary mb-2">2 de agosto de
-                2023</span>
-              <h3 class="h5">El ciberataque al PAMI</h3>
-              <p>El ciberataque al PAMI en 2023 fue uno de los incidentes de
-                ciberseguridad mas graves de la historia
-                reciente de
-                Argentina. Afecto directamente la salud y la privacidad de unos
-                cinco millones de jubilados y
-                pensionados.</p>
-
-              <p>El grupo Rhysida logro entrar a los sistemas informaticos del
-                PAMI con un ransomware.</p>
-
-              <p> Se cree que el virus entro mediante tecnicas de engano como el
-                phishing (probablemente robando las
-                credenciales
-                de algun prestador o medico). Una vez adentro, encripto los
-                archivos de los servidores internos y
-                el personal no pudo volver a usarlos.</p>
-
-              <p> Los atacantes dejaron un mensaje pidiendo un rescate de 25
-                Bitcoins (entre 500,000 y 735,000 dolares
-                aproximadamente en ese momento) a cambio de no publicar la
-                informacion. El Estado argentino,
-                siguiendo su protocolo, no pago el rescate.</p>
-
-              <p>El ataque dejo a la obra social sin sistemas digitales durante
-                semanas. Las recetas electronicas y las
-                ordenes
-                medicas digitales dejaron de funcionar, asi que el PAMI tuvo que
-                autorizar de emergencia el uso de
-                papel: los medicos debian hacer las recetas a mano y con firma
-                fisica para que los pacientes
-                pudieran retirar sus medicamentos en las farmacias. Los tramites
-                de derivaciones, la entrega de
-                panales, las autorizaciones de tratamientos de alta complejidad
-                y la gestion de turnos tuvieron
-                que hacerse a mano en las agencias, y eso genero demoras
-                enormes.
-              </p>
-
-              <p>Aunque al principio las autoridades dijeron que los datos
-                estaban a salvo, el grupo Rhysida cumplio su
-                amenaza a
-                mediados de agosto de 2023 y publico en la Deep Web 831 GB de
-                informacion robada (mas de 1.6
-                millones de archivos). La filtracion expuso datos muy sensibles.
-              </p>
-              <p>Fuentes:</p>
-              <p class="small mb-0">
-                <a
-                  href="https://www.lavoz.com.ar/ciudadanos/ataque-informatico-afecta-carlos-paz-municipalidades-cordobesas_0_EFu90PuWP2.html"
-                  target="_blank">lavoz.com.ar</a>
-
-                <br>
-
-                <a
-                  href="https://www.lanacion.com.ar/sociedad/hackeo-al-pami-se-agrava-la-atencion-medica-y-en-farmacias-a-los-afiliados-nid09082023/"
-                  target="_blank">lanacion.com.ar</a>
-              </p>
-              <br>
-
-            </div>
-            <div class="tab-pane fade" id="caso4" role="tabpanel"
-              aria-labelledby="caso4-tab" tabindex="0">
-
-              <img src="./Imagenes/yuyo.jpg" alt
-                class="img-fluid d-block mx-auto w-100">
-              <small> la imagen fue hecha con inteligencia artificial. (Gemini)
-              </small>
-              <br>
-              <span class="badge text-bg-secondary mb-2">Todo comenzo en el año
-                1978</span>
-
-              <h3 class="h5">El primer hacker Argentino de la historia</h3>
-
-              <p>En 1978, Raul Horacio Barragan descubrio la manera de volar
-                gratis con un truco via telex; inició alli un
-                raid de timos que incluyo viajes por el mundo, pero también
-                huidas y choques con la ley.</p>
-
-              <p> <b>Uso del Télex y códigos SITA</b>: Trabajando en una oficina
-                de Aerolíneas Argentinas en Concordia,
-                aprendió detalladamente cómo operaba el sistema de mensajería
-                electrónica. Descubrió las "claves de
-                navegación" (llegó a dominar unas 120.000 combinaciones de
-                códigos) que utilizaban las agencias para
-                autorizar y confirmar pasajes. </p>
-
-              <p><b>Simulación de caídas y errores de satélite</b>: Para enviar
-                órdenes sin levantar sospechas directas de
-                las oficinas centrales de Buenos Aires, Barragán utilizaba un
-                código de error específico (secuencias como
-                LLLL). Esto forzaba una interrupción temporal del sistema de
-                transmisión y hacía que sus mensajes
-                falsificados parecieran retransmisiones automáticas provocadas
-                por un error satelital o técnico.</p>
-
-              <p><b>Aprobación de pasajes directos desde el exterior</b>: Al
-                saltarse los controles locales, enviaba las
-                solicitudes de emisión de billetes directamente a la central de
-                SITA en Suiza o a las aerolíneas
-                internacionales involucradas. El sistema central interpretaba
-                que la petición venía validada correctamente
-                y emitía la orden de entrega de pasajes en las ventanillas de
-                aeropuertos de cualquier parte del mundo.
-              </p>
-
-              <p><b>Control total de la reserva</b>: Con el tiempo, perfecciono
-                tanto su conocimiento del código de SITA
-                que no solo emitía el pasaje base: enviaba comandos falsos
-                modificando los billetes a Primera Clase,
-                solicitando menús especiales e incluso redireccionando el
-                rastreo de equipajes.</p>
-
-              <p class="small mb-0">
-                Fuente: <a
-                  href="https://www.infobae.com/economia/2021/09/26/la-increible-historia-del-primer-hacker-argentino-en-la-era-pre-internet-viajo-por-todo-el-mundo-sin-pagar-un-solo-peso/"
-                  target="_blank">infobae.com</a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="container my-5">
-        <h2 class="titulo h3">¿Que podemos perder si no nos protegemos? <svg
-            xmlns="http://www.w3.org/2000/svg" width="35" height="35"
-            fill="currentColor" class="bi bi-unlock2" viewBox="0 0 16 16">
-            <path fill-rule="evenodd"
-              d="M8 0c1.07 0 2.041.42 2.759 1.104l.14.14.062.08a.5.5 0 0 1-.71.675l-.076-.066-.216-.205A3 3 0 0 0 5 4v2h6.5A2.5 2.5 0 0 1 14 8.5v5a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 2 13.5v-5a2.5 2.5 0 0 1 2-2.45V4a4 4 0 0 1 4-4M4.5 7A1.5 1.5 0 0 0 3 8.5v5A1.5 1.5 0 0 0 4.5 15h7a1.5 1.5 0 0 0 1.5-1.5v-5A1.5 1.5 0 0 0 11.5 7z" />
-          </svg></h2>
-        <div class="row g-4">
-          <div class="col-md-4">
-            <div class="p-3 bg-white border rounded h-100">
-              <span class="badge bg-black text-white mb-2">Economico</span>
-              <p class="mb-0">Perdidas de dinero directas e indirectas: robo de
-                dinero por el acceso no autorizado a
-                cuentas bancarias y
-                plataformas de pago, compras fraudulentas a nombre de las
-                victimas, el alto costo de recuperar los
-                sistemas informaticos y el posible pago de rescates que piden
-                los atacantes.</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="p-3 bg-white border rounded h-100">
-              <span class="badge bg-black text-white mb-2">Privacidad</span>
-              <p class="mb-0">Perdida de privacidad y dano a la identidad:
-                fotos, mensajes privados y datos personales
-                importantes pueden
-                quedar expuestos en internet o ser usados por ciberdelincuentes
-                para hacerse pasar por la victima,
-                cometer fraudes a su nombre o chantajearla.</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="p-3 bg-white border rounded h-100">
-              <span class="badge bg-black text-white mb-2">Confianza y
-                tiempo</span>
-              <p class="mb-0">Daño a la reputacion, perdida de archivos y de
-                tiempo: se puede danar la imagen personal o
-                profesional frente a
-                otras personas, perder para siempre documentos muy importantes y
-                gastar muchas horas de trabajo en
-                recuperar el control de las cuentas robadas.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="container my-5">
-        <h2 class="titulo h3">Dudas comunes</h2>
-        <div class="accordion" id="acordeonDudas">
-
-          <div class="accordion-item">
-            <h3 class="accordion-header">
-              <button class="accordion-button" type="button"
-                data-bs-toggle="collapse" data-bs-target="#duda1"
-                aria-expanded="true" aria-controls="duda1">
-                “No tengo nada valioso, ¿quien me atacaria?”
-              </button>
-            </h3>
-            <div id="duda1" class="accordion-collapse collapse show"
-              data-bs-parent="#acordeonDudas">
-              <div class="accordion-body">
-                <p>La mayoria de los ciberataques no apuntan a una persona en
-                  particular, sino que se hacen con programas
-                  automaticos que buscan a cualquiera que se descuide con su
-                  seguridad. Ademas, hay un riesgo
-                  indirecto: una cuenta hackeada suele usarse, aprovechando la
-                  confianza que se tiene en esa
-                  persona, para enganar, estafar o poner en peligro a
-                  familiares, amigos y conocidos.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h3 class="accordion-header">
-              <button class="accordion-button collapsed" type="button"
-                data-bs-toggle="collapse" data-bs-target="#duda2"
-                aria-expanded="false" aria-controls="duda2">
-                “¿Con tener antivirus ya estoy protegido?”
-              </button>
-            </h3>
-            <div id="duda2" class="accordion-collapse collapse"
-              data-bs-parent="#acordeonDudas">
-              <div class="accordion-body">
-                <p>Tener un antivirus es importante, pero no alcanza por si
-                  solo. Hay que sumarle contrasenas seguras,
-                  actualizar
-                  el sistema cada tanto, activar la verificacion en dos pasos y,
-                  sobre todo, ser precavido y
-                  desconfiar de los mensajes o comunicaciones sospechosas.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h3 class="accordion-header">
-              <button class="accordion-button collapsed" type="button"
-                data-bs-toggle="collapse" data-bs-target="#duda3"
-                aria-expanded="false" aria-controls="duda3">
-                “¿Es solo responsabilidad de los tecnicos?”
-              </button>
-            </h3>
-            <div id="duda3" class="accordion-collapse collapse"
-              data-bs-parent="#acordeonDudas">
-              <div class="accordion-body">
-                <p>La ciberseguridad es una tarea de todos y no solo de quienes
-                  administran los sistemas. Mientras los
-                  equipos
-                  tecnicos ponen barreras de proteccion en la red y el software,
-                  cada usuario es la ultima linea
-                  de defensa, y lo que importa es el cuidado con que maneja sus
-                  datos y entra a contenidos
-                  externos.</p>
-
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-      <div class="container my-5">
-        <h2 class="h5">Fuentes consultadas</h2>
-        <ul class="mb-0 fuentes">
-          <li>
-            <a
-              href="https://www.piranirisk.com/es/academia/especiales/ciberseguridad-que-es-como-funciona-y-su-importancia"
-              target="_blank">Pirani Risk: Ciberseguridad, que es, como funciona
-              y su importancia</a>
-          </li>
-          <li>
-            <a
-              href="https://www.platinumciber.com/es/ciberseguridad-en-argentina-por-que-solo-el-6-esta-preparado-y-que-hacer-al-respecto/"
-              target="_blank">Platinum Ciber: Ciberseguridad en Argentina, por
-              que solo el 6% esta preparado</a>
-          </li>
-
-          <!-- profe el link de la fuente platinum ciber ahora no funciona pero cuando se realizo el trabajo andaba, si se entra en el cache se puede ver -->
-
-          <li>
-            <a
-              href="https://www.thomsonreuters.com.ar/es/soluciones-fiscales-contables-gestion/blog-empresas/cual-es-la-importancia-de-la-ciberseguridad-para-las-empresas.html"
-              target="_blank">Thomson Reuters: La importancia de la
-              ciberseguridad para las empresas</a>
-          </li>
-        </ul>
       </div>
-    </main>
+    </section>
 
-    <footer class="bg-dark text-white-50 py-5">
-      <div class="container-fluid px-4">
-        <div class="row g-4">
-          <div class="col-12 col-lg-3">
-            <h2 class="h5 text-white">Ciberseguridad</h2>
-            <p class="small mb-0">Proyecto educativo · EFPN° 7 · 2026</p>
+    <section class="container my-5">
+      <h2 class="titulo h3">¿Que podemos perder si no nos protegemos? <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-unlock2" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 0c1.07 0 2.041.42 2.759 1.104l.14.14.062.08a.5.5 0 0 1-.71.675l-.076-.066-.216-.205A3 3 0 0 0 5 4v2h6.5A2.5 2.5 0 0 1 14 8.5v5a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 2 13.5v-5a2.5 2.5 0 0 1 2-2.45V4a4 4 0 0 1 4-4M4.5 7A1.5 1.5 0 0 0 3 8.5v5A1.5 1.5 0 0 0 4.5 15h7a1.5 1.5 0 0 0 1.5-1.5v-5A1.5 1.5 0 0 0 11.5 7z"/>
+</svg></h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="p-3 bg-white border rounded h-100">
+            <span class="badge bg-black text-white mb-2">Economico</span>
+            <p class="mb-0">Perdidas de dinero directas e indirectas: robo de dinero por el acceso no autorizado a
+              cuentas bancarias y
+              plataformas de pago, compras fraudulentas a nombre de las victimas, el alto costo de recuperar los
+              sistemas informaticos y el posible pago de rescates que piden los atacantes.</p>
           </div>
-          <nav class="col-12 col-lg-7" aria-label="Páginas del sitio">
-            <h2 class="h6 text-uppercase text-info mb-3">Explorar el sitio</h2>
-            <ul
-              class="list-unstyled row row-cols-1 row-cols-sm-2 row-cols-xl-3 g-2 mb-0">
-              <li class="col"><a
-                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
-                  href="../index.html">Página Principal</a></li>
-              <li class="col"><a
-                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
-                  href="../trabajo-de-conceptos-basicos/conceptosBasicos.html">Conceptos
-                  básicos</a></li>
-              <li class="col"><a
-                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
-                  href="importancia.html" aria-current="page">Importancia de la
-                  Ciberseguridad</a></li>
-              <li class="col"><a
-                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
-                  href="../buenas-practicas/buenasPracticas.html">Buenas
-                  prácticas</a></li>
-              <li class="col"><a
-                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
-                  href="#">Entorno profesional</a></li>
-              <li class="col"><a
-                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
-                  href="../AmenazasDiarias/amenazas.html">Amenazas comunes y
-                  prevención</a></li>
-              <li class="col"><a
-                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
-                  href="#">Educación en Ciberseguridad</a></li>
-              <li class="col"><a
-                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
-                  href="../CarrerasCiberseguridad/carreras.html">Carreras en
-                  Ciberseguridad</a></li>
-              <li class="col"><a
-                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
-                  href="../ProyectoEscolar/herramientas.html">Recursos y
-                  herramientas</a></li>
-              <li class="col"><a
-                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
-                  href="../LegislacionCiberseguridad/legislacion.html">Legislación
-                  y normativas</a></li>
-              <li class="col"><a
-                  class="link-light link-underline-opacity-0 link-underline-opacity-100-hover"
-                  href="../tendenciasFuturas/TendenciasFuturas.html">Tendencias
-                  futuras</a></li>
+        </div>
+        <div class="col-md-4">
+          <div class="p-3 bg-white border rounded h-100">
+            <span class="badge bg-black text-white mb-2">Privacidad</span>
+            <p class="mb-0">Perdida de privacidad y dano a la identidad: fotos, mensajes privados y datos personales
+              importantes pueden
+              quedar expuestos en internet o ser usados por ciberdelincuentes para hacerse pasar por la victima,
+              cometer fraudes a su nombre o chantajearla.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-3 bg-white border rounded h-100">
+            <span class="badge bg-black text-white mb-2">Confianza y tiempo</span>
+            <p class="mb-0">Daño a la reputacion, perdida de archivos y de tiempo: se puede danar la imagen personal o
+              profesional frente a
+              otras personas, perder para siempre documentos muy importantes y gastar muchas horas de trabajo en
+              recuperar el control de las cuentas robadas.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container my-5">
+      <h2 class="titulo h3">Dudas comunes</h2>
+      <div class="accordion" id="acordeonDudas">
+
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#duda1"
+              aria-expanded="true" aria-controls="duda1">
+              “No tengo nada valioso, ¿quien me atacaria?”
+            </button>
+          </h3>
+          <div id="duda1" class="accordion-collapse collapse show" data-bs-parent="#acordeonDudas">
+            <div class="accordion-body">
+              <p>La mayoria de los ciberataques no apuntan a una persona en particular, sino que se hacen con programas
+                automaticos que buscan a cualquiera que se descuide con su seguridad. Ademas, hay un riesgo
+                indirecto: una cuenta hackeada suele usarse, aprovechando la confianza que se tiene en esa
+                persona, para enganar, estafar o poner en peligro a familiares, amigos y conocidos.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#duda2"
+              aria-expanded="false" aria-controls="duda2">
+              “¿Con tener antivirus ya estoy protegido?”
+            </button>
+          </h3>
+          <div id="duda2" class="accordion-collapse collapse" data-bs-parent="#acordeonDudas">
+            <div class="accordion-body">
+              <p>Tener un antivirus es importante, pero no alcanza por si solo. Hay que sumarle contrasenas seguras,
+                actualizar
+                el sistema cada tanto, activar la verificacion en dos pasos y, sobre todo, ser precavido y
+                desconfiar de los mensajes o comunicaciones sospechosas.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#duda3"
+              aria-expanded="false" aria-controls="duda3">
+              “¿Es solo responsabilidad de los tecnicos?”
+            </button>
+          </h3>
+          <div id="duda3" class="accordion-collapse collapse" data-bs-parent="#acordeonDudas">
+            <div class="accordion-body">
+              <p>La ciberseguridad es una tarea de todos y no solo de quienes administran los sistemas. Mientras los
+                equipos
+                tecnicos ponen barreras de proteccion en la red y el software, cada usuario es la ultima linea
+                de defensa, y lo que importa es el cuidado con que maneja sus datos y entra a contenidos
+                externos.</p>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="container my-5">
+      <h2 class="h5">Fuentes consultadas</h2>
+      <ul class="mb-0 fuentes">
+        <li>
+          <a href="https://www.piranirisk.com/es/academia/especiales/ciberseguridad-que-es-como-funciona-y-su-importancia"
+            target="_blank">Pirani Risk: Ciberseguridad, que es, como funciona y su importancia</a>
+        </li>
+        
+          
+        <li>
+          <a href="https://www.thomsonreuters.com.ar/es/soluciones-fiscales-contables-gestion/blog-empresas/cual-es-la-importancia-de-la-ciberseguridad-para-las-empresas.html"
+            target="_blank">Thomson Reuters: La importancia de la ciberseguridad para las empresas</a>
+        </li>
+      </ul>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-white-50 py-5 position-relative">
+    <a class="btn btn-outline-light position-absolute top-0 mt-2" href="#inicio">Volver al inicio</a>
+    <div class="container-fluid px-4">
+      <div class="row g-4">
+        <div class="col-12 col-lg-3">
+          <h2 class="h5 text-white">Ciberseguridad</h2>
+          <p class="small mb-0">Proyecto educativo · EFPN° 7 · 2026</p>
+        </div>
+        <nav class="col-12 col-lg-7" aria-label="Páginas del sitio">
+          <h2 class="h6 text-uppercase text-info mb-3">Explorar el sitio</h2>
+          <ul class="list-unstyled row row-cols-1 row-cols-sm-2 row-cols-xl-3 g-2 mb-0">
+              <li class="col"><a class="link-light link-underline-opacity-0 link-underline-opacity-100-hover" href="../index.html">Página Principal</a></li>
+              <li class="col"><a class="link-light link-underline-opacity-0 link-underline-opacity-100-hover" href="../ConceptosBasicos/PaginadeConceptosBasicos.html">Bases</a></li>
+              <li class="col"><a class="link-light link-underline-opacity-0 link-underline-opacity-100-hover" href="../ImportanciadeCiberseguridad/importancia.html" aria-current="page">Importancia</a></li>
+              <li class="col"><a class="link-light link-underline-opacity-0 link-underline-opacity-100-hover" href="../BuenasPracticas/PaginadeBuenasPracticas.html">Buenas prácticas</a></li>
+              <li class="col"><a class="link-light link-underline-opacity-0 link-underline-opacity-100-hover" href="../AmenazasDiarias/amenazas.html">Amenazas y prevención</a></li>
+              <li class="col"><a class="link-light link-underline-opacity-0 link-underline-opacity-100-hover" href="../CarrerasCiberseguridad/carreras.html">Carreras</a></li>
+              <li class="col"><a class="link-light link-underline-opacity-0 link-underline-opacity-100-hover" href="../ProyectoEscolar/herramientas.html">Recursos y herramientas</a></li>
+              <li class="col"><a class="link-light link-underline-opacity-0 link-underline-opacity-100-hover" href="../LegislacionCiberseguridad/legislacion.html">Legislación y normativas</a></li>
+                          <li class="col"><a class="link-light link-underline-opacity-0 link-underline-opacity-100-hover" href="../tendenciasFuturas/TendenciasFuturas.html">Tendencias futuras</a></li>
             </ul>
-          </nav>
-          <div class="col-12 col-lg-2">
-            <h2 class="h6 text-uppercase text-info mb-3">Redes sociales</h2>
-            <div class="d-flex gap-3">
-              <a class="link-info"
-                href="https://www.facebook.com/escfp7/?locale=es_LA"
-                target="_blank"
-                rel="noopener noreferrer" aria-label="Facebook"
-                title="Facebook">
-                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
-                  fill="currentColor" viewBox="0 0 24 24"
-                  aria-hidden="true">
-                  <path
-                    d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073c0 6.019 4.388 11.018 10.125 11.927v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.953h-1.513c-1.49 0-1.956.93-1.956 1.885v2.26h3.328l-.532 3.49h-2.796V24C19.612 23.091 24 18.092 24 12.073Z" />
-                </svg>
-              </a>
-              <a class="link-info"
-                href="https://www.instagram.com/efp7ok/?hl=es" target="_blank"
-                rel="noopener noreferrer" aria-label="Instagram"
-                title="Instagram">
-                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
-                  fill="none" stroke="currentColor"
-                  stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
-                  <rect x="3" y="3" width="18" height="18" rx="5" />
-                  <circle cx="12" cy="12" r="4" />
-                  <circle cx="18" cy="6" r=".75" fill="currentColor"
-                    stroke="none" />
-                </svg>
-              </a>
-            </div>
+        </nav>
+        <div class="col-12 col-lg-2">
+          <h2 class="h6 text-uppercase text-info mb-3">Redes sociales</h2>
+          <div class="d-flex gap-3">
+            <a class="link-info" href="https://www.facebook.com/escfp7/?locale=es_LA" target="_blank"
+              rel="noopener noreferrer" aria-label="Facebook" title="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 24 24"
+                aria-hidden="true">
+                <path
+                  d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073c0 6.019 4.388 11.018 10.125 11.927v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.953h-1.513c-1.49 0-1.956.93-1.956 1.885v2.26h3.328l-.532 3.49h-2.796V24C19.612 23.091 24 18.092 24 12.073Z" />
+              </svg>
+            </a>
+            <a class="link-info" href="https://www.instagram.com/efp7ok/?hl=es" target="_blank"
+              rel="noopener noreferrer" aria-label="Instagram" title="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" stroke="currentColor"
+                stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="3" y="3" width="18" height="18" rx="5" />
+                <circle cx="12" cy="12" r="4" />
+                <circle cx="18" cy="6" r=".75" fill="currentColor" stroke="none" />
+              </svg>
+            </a>
           </div>
         </div>
-        <hr class="border-secondary my-4" />
-        <p class="small text-center mb-0">© 2026 Proyecto educativo de
-          ciberseguridad</p>
       </div>
-    </footer>
+      <hr class="border-secondary my-4" />
+      <p class="small text-center mb-0">© 2026 Proyecto educativo de ciberseguridad</p>
+    </div>
+  </footer>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 
 </html>

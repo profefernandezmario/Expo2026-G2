@@ -1,0 +1,41 @@
+.border-pr {
+  transition: transform 0.2s ease;
+}
+
+
+.mi-tarjeta{
+  max-width: 450px;
+  word-wrap: break-word;
+}
+.border-pr{
+  border: 2px solid gray;
+}
+.colorfondo{
+  background-color: #0D1C42;
+  color: #FCF1D0;
+}
+.titulo{
+  color: #0D1C42;
+}
+.titulo2{
+  color: #22396F;
+}
+.w-30{
+  width: 100px;
+}
+@media (min-width: 1000px) {
+  .border-pr:hover {
+  transform: translateY(6px) scale(1.02);
+  }
+}
+.linea {
+    display: inline-block;
+    width: 60px;
+    height: 2px;
+    background-color: #FCF1D0;
+}
+.centrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
